@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+  <DatabaseInfo>
+    <DatabaseID>sm_ptd</DatabaseID>
+    <DatabaseName>Polymer Thermodynamics</DatabaseName>
+  </DatabaseInfo>
+  <bucket-details>
+    <bucket-name>sm_ptd_athas_0118</bucket-name>
+    <bucket-number>468</bucket-number>
+  </bucket-details>    
+  <content>
+    <DatasetTitle Language="En">Poly(diethyl siloxane) (PDES) Heat Capacity, Enthalpy, Entropy, Gibbs Energy</DatasetTitle>  
+    <details>
+      <title>Substance Details</title>
+      <substances>
+        <substance order="1">     
+          <name>Poly(diethyl siloxane)</name>
+          <polymer-code>PDES</polymer-code>
+          <cas-numbers>
+            <cas-number>28323-47-9</cas-number>
+          </cas-numbers>
+          <substance-class>Poly(siloxane)s</substance-class>
+        </substance>    
+      </substances>
+    </details>
+    <supporting-content>
+      <images>
+        <large>
+          <image order="1">
+            <file-path/>
+            <file-name>sm_ptd_athas_0118_1.png</file-name>
+            <file-size>14239</file-size>
+            <description>Graphical representation of the heat capacity at constant pressure for poly(diethyl siloxane) (PDES) in the amorphous phase as a function of temperature.</description>   
+            <caption>Heat capacity at constant pressure for poly(diethyl siloxane) (PDES) in the amorphous phase as a function of temperature.</caption>
+          </image>
+          <image order="2">
+            <file-path/>
+            <file-name>sm_ptd_athas_0118_2.png</file-name>
+            <file-size>12785</file-size>
+            <description>Graphical representation of the enthalpy and Gibbs energy for poly(diethyl siloxane) (PDES) in the melted and crystalline phase as a function of temperature.</description>   
+            <caption>Enthalpy and Gibbs energy for poly(diethyl siloxane) (PDES) in the melted and crystalline phase as a function of temperature.</caption>
+          </image>
+        </large>
+      </images>
+      <csv-files>
+        <csv order="1">
+          <file-path/>
+          <file-name/>
+          <file-size/>
+          <description/>
+        </csv>
+      </csv-files>
+    </supporting-content>
+    <data-tables>
+      <data-table order="1" id="1" name="Calculated Heat Capacity and Thermodynamic Functions">
+        <header>
+          <title>Calculated Heat Capacity and Thermodynamic Functions</title>
+          <description>Calculated heat capacity and thermodynamic functions of poly(diethyl siloxane) (PDES) in the amorphous and crystalline phase.</description>
+          <column-groups>
+            <column-group>
+              <title>Amorphous State</title>
+              <order>2,3,4,5,6</order>
+            </column-group>
+            <column-group>
+              <title>Crystalline State</title>
+              <order>7,8,9,10,11</order>
+            </column-group>  
+          </column-groups>          
+          <columns>
+            <column order="1" type="parameter">
+              <name>Temperature</name>
+              <symbol><i>T</i></symbol>
+              <unit>K</unit>
+            </column>
+            <column order="2" type="value">
+              <name>Heat Capacity</name>
+              <symbol><i>C</i><sub>p</sub></symbol>
+              <unit>J/(K·mol)</unit>
+            </column>
+            <column order="3" type="value">
+              <name>Enthalpy</name>
+              <symbol><i>H</i>−<i>H</i><sub>0</sub>[c]</symbol>
+              <unit>J/mol</unit>
+            </column>
+            <column order="4" type="value">
+              <name>Entropy</name>
+              <symbol><i>S</i></symbol>
+              <unit>J/(K·mol)</unit>
+            </column>
+            <column order="5" type="value">
+              <name>Gibbs Energy</name>
+              <symbol><i>H</i><sub>0</sub>[c]−<i>G</i></symbol>
+              <unit>J/mol</unit>
+            </column>
+            <column order="6" type="abbreviation">
+              <name>Note</name>          
+              <lookup-table-id>4</lookup-table-id>
+              <lookup-table>Explanations on Calculated Data</lookup-table>
+            </column>               
+            <column order="7" type="value">
+              <name>Heat Capacity</name>
+              <symbol><i>C</i><sub>p</sub></symbol>
+              <unit>J/(K·mol)</unit>
+            </column>
+            <column order="8" type="value">
+              <name>Enthalpy</name>
+              <symbol><i>H</i>−<i>H</i><sub>0</sub>[c]</symbol>
+              <unit>J/mol</unit>
+            </column>
+            <column order="9" type="value">
+              <name>Entropy</name>
+              <symbol><i>S</i></symbol>
+              <unit>J/(K·mol)</unit>
+            </column>
+            <column order="10" type="value">
+              <name>Gibbs Energy</name>
+              <symbol><i>H</i><sub>0</sub>[c]−<i>G</i></symbol>
+              <unit>J/(K·mol)</unit>
+            </column>
+            <column order="11" type="abbreviation">
+              <name>Note</name>          
+              <lookup-table-id>4</lookup-table-id>
+              <lookup-table>Explanations on Calculated Data</lookup-table>
+            </column>               
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row>
+              <temperature order="1">0.100</temperature>        
+              <heat-capacity-amorphous order="2">0.0000</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2800.5400</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0000</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.200</temperature>        
+              <heat-capacity-amorphous order="2">0.0000</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2799.6900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0000</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.300</temperature>        
+              <heat-capacity-amorphous order="2">0.0000</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2798.8500</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0000</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.400</temperature>        
+              <heat-capacity-amorphous order="2">0.0000</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2798.0100</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0000</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.500</temperature>        
+              <heat-capacity-amorphous order="2">0.0000</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2797.1600</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0000</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.600</temperature>        
+              <heat-capacity-amorphous order="2">0.0010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2796.3200</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0010</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.700</temperature>        
+              <heat-capacity-amorphous order="2">0.0010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2795.4800</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0010</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.800</temperature>        
+              <heat-capacity-amorphous order="2">0.0010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4330</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2794.6300</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0010</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0000</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">0.900</temperature>        
+              <heat-capacity-amorphous order="2">0.0020</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4340</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2793.7900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0020</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0010</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">1.000</temperature>        
+              <heat-capacity-amorphous order="2">0.0020</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4340</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2792.9500</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0020</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0010</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">1.200</temperature>        
+              <heat-capacity-amorphous order="2">0.0040</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4340</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2791.2600</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0040</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0010</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">1.400</temperature>        
+              <heat-capacity-amorphous order="2">0.0070</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4350</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2789.5700</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0070</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0020</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">1.600</temperature>        
+              <heat-capacity-amorphous order="2">0.0100</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4360</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2787.8900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0100</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0030</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">1.800</temperature>        
+              <heat-capacity-amorphous order="2">0.0140</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3900</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4380</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2786.2000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0140</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0100</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0050</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">2.000</temperature>        
+              <heat-capacity-amorphous order="2">0.0200</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.3900</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4400</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2784.5100</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0200</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0100</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0070</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">3.000</temperature>        
+              <heat-capacity-amorphous order="2">0.0670</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.4300</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4550</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2776.0700</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.0670</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.0500</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0220</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">4.000</temperature>        
+              <heat-capacity-amorphous order="2">0.1590</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.5400</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.4860</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2767.6000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.1590</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.1600</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.0530</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.0500</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">5.000</temperature>        
+              <heat-capacity-amorphous order="2">0.3100</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2801.7700</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.5360</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2759.0900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.3100</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.3900</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.1030</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.1300</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">6.000</temperature>        
+              <heat-capacity-amorphous order="2">0.5350</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2802.1800</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.6110</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2750.5200</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.5350</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">0.8000</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.1780</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.2700</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">7.000</temperature>        
+              <heat-capacity-amorphous order="2">0.8490</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2802.8700</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.7160</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2741.8600</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">0.8490</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">1.4900</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.2830</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.5000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">8.000</temperature>        
+              <heat-capacity-amorphous order="2">1.2570</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2803.9100</enthalpy-amorphous>
+              <entropy-amorphous order="4">8.8550</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2733.0700</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">1.2570</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">2.5300</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.4220</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">0.8500</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">9.000</temperature>        
+              <heat-capacity-amorphous order="2">1.7640</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2805.4100</enthalpy-amorphous>
+              <entropy-amorphous order="4">9.0320</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2724.1300</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">1.7640</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">4.0300</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.5990</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">1.3500</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">10.000</temperature>        
+              <heat-capacity-amorphous order="2">2.3700</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2807.4700</enthalpy-amorphous>
+              <entropy-amorphous order="4">9.2480</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2714.9900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">2.3700</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">6.0900</enthalpy-crystalline>
+              <entropy-crystalline order="9">0.8150</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">2.0600</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">15.000</temperature>        
+              <heat-capacity-amorphous order="2">6.5070</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2829.0300</enthalpy-amorphous>
+              <entropy-amorphous order="4">10.9440</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2664.8700</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">6.5070</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">27.6500</enthalpy-crystalline>
+              <entropy-crystalline order="9">2.5110</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">10.0200</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">20.000</temperature>        
+              <heat-capacity-amorphous order="2">11.4650</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2873.9100</enthalpy-amorphous>
+              <entropy-amorphous order="4">13.4900</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2604.1100</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">11.4650</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">72.5300</enthalpy-crystalline>
+              <entropy-crystalline order="9">5.0570</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">28.6200</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">25.000</temperature>        
+              <heat-capacity-amorphous order="2">16.4550</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">2943.7400</enthalpy-amorphous>
+              <entropy-amorphous order="4">16.5780</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2529.2900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">16.4550</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">142.3600</enthalpy-crystalline>
+              <entropy-crystalline order="9">8.1450</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">61.2700</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">30.000</temperature>        
+              <heat-capacity-amorphous order="2">21.2950</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">3038.2000</enthalpy-amorphous>
+              <entropy-amorphous order="4">19.9990</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2438.2300</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">21.2950</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">236.8200</enthalpy-crystalline>
+              <entropy-crystalline order="9">11.5660</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">110.1700</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">40.000</temperature>        
+              <heat-capacity-amorphous order="2">30.4810</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">3297.5000</enthalpy-amorphous>
+              <entropy-amorphous order="4">27.3960</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-2201.6600</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">30.4810</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">496.1200</enthalpy-crystalline>
+              <entropy-crystalline order="9">18.9630</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">262.3900</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">50.000</temperature>        
+              <heat-capacity-amorphous order="2">39.2390</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">3646.3000</enthalpy-amorphous>
+              <entropy-amorphous order="4">35.1560</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-1888.5000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">39.2390</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">844.9200</enthalpy-crystalline>
+              <entropy-crystalline order="9">26.7230</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">491.2100</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">60.000</temperature>        
+              <heat-capacity-amorphous order="2">47.5850</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">4080.8600</enthalpy-amorphous>
+              <entropy-amorphous order="4">43.0570</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-1497.4400</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">47.5850</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">1279.4800</enthalpy-crystalline>
+              <entropy-crystalline order="9">34.6240</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">797.9800</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">70.000</temperature>        
+              <heat-capacity-amorphous order="2">55.4580</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">4596.1300</enthalpy-amorphous>
+              <entropy-amorphous order="4">50.9820</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-1027.3900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">55.4580</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">1794.7500</enthalpy-crystalline>
+              <entropy-crystalline order="9">42.5490</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">1183.6800</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">80.000</temperature>        
+              <heat-capacity-amorphous order="2">62.7910</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">5188.1100</enthalpy-amorphous>
+              <entropy-amorphous order="4">58.8750</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">-478.1100</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">62.7910</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">2386.7300</enthalpy-crystalline>
+              <entropy-crystalline order="9">50.4420</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">1648.6500</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">90.000</temperature>        
+              <heat-capacity-amorphous order="2">69.5260</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">5850.1600</enthalpy-amorphous>
+              <entropy-amorphous order="4">66.6740</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">150.5000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">69.5260</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">3048.7800</enthalpy-crystalline>
+              <entropy-crystalline order="9">58.2410</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">2192.9000</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">100.000</temperature>        
+              <heat-capacity-amorphous order="2">75.6710</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">6576.7200</enthalpy-amorphous>
+              <entropy-amorphous order="4">74.3240</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">855.6900</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">75.6710</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">3775.3400</enthalpy-crystalline>
+              <entropy-crystalline order="9">65.8910</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">2813.7400</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">110.000</temperature>        
+              <heat-capacity-amorphous order="2">81.2150</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">7361.3200</enthalpy-amorphous>
+              <entropy-amorphous order="4">81.7920</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">1635.8000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">81.2150</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">4559.9400</enthalpy-crystalline>
+              <entropy-crystalline order="9">73.3590</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">3509.5100</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">120.000</temperature>        
+              <heat-capacity-amorphous order="2">86.3210</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">8199.4700</enthalpy-amorphous>
+              <entropy-amorphous order="4">89.0810</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">2490.2600</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">86.3210</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">5398.0900</enthalpy-crystalline>
+              <entropy-crystalline order="9">80.6480</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">4279.6400</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">130.000</temperature>        
+              <heat-capacity-amorphous order="2">91.0060</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">9086.5000</enthalpy-amorphous>
+              <entropy-amorphous order="4">96.1870</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">3417.8100</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">91.0060</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">6285.1200</enthalpy-crystalline>
+              <entropy-crystalline order="9">87.7540</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">5122.8400</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">135.000</temperature>        
+              <heat-capacity-amorphous order="2">93.2460</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">9547.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">99.6630</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">3907.4000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">93.2460</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">6745.7200</enthalpy-crystalline>
+              <entropy-crystalline order="9">91.2300</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">5570.3400</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">135.000</temperature>        
+              <heat-capacity-amorphous order="2">127.7210</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">9547.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">99.6630</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">3907.4100</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">93.2460</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">6745.7200</enthalpy-crystalline>
+              <entropy-crystalline order="9">91.2300</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">5570.3400</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">135.000</temperature>        
+              <heat-capacity-amorphous order="2">127.7210</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">9547.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">99.6630</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">3907.4100</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">93.2460</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">6745.7200</enthalpy-crystalline>
+              <entropy-crystalline order="9">91.2300</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">5570.3400</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">135.000</temperature>        
+              <heat-capacity-amorphous order="2">93.2460</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">9547.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">99.6630</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">3907.4000</gibbs-energy-amorphous>
+              <note-amorphous refID="7" order="6">7</note-amorphous>
+              <heat-capacity-crystalline order="7">93.2460</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">6745.7200</enthalpy-crystalline>
+              <entropy-crystalline order="9">91.2300</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">5570.3400</gibbs-energy-crystalline>
+              <note-crystalline refID="1" order="11">1</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">140.000</temperature>        
+              <heat-capacity-amorphous order="2">128.8630</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">10232.5500</enthalpy-amorphous>
+              <entropy-amorphous order="4">104.6620</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">4420.1400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">95.4070</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">7217.2100</enthalpy-crystalline>
+              <entropy-crystalline order="9">94.6520</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">6034.1400</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">150.000</temperature>        
+              <heat-capacity-amorphous order="2">131.1470</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">11458.6100</enthalpy-amorphous>
+              <entropy-amorphous order="4">113.0630</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">5500.8400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">99.5970</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">8192.3900</enthalpy-crystalline>
+              <entropy-crystalline order="9">101.3780</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">7014.2900</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">160.000</temperature>        
+              <heat-capacity-amorphous order="2">133.4320</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">12840.8000</enthalpy-amorphous>
+              <entropy-amorphous order="4">122.0560</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">6688.1600</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">103.6200</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">9208.8300</enthalpy-crystalline>
+              <entropy-crystalline order="9">107.9440</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">8062.2500</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">170.000</temperature>        
+              <heat-capacity-amorphous order="2">135.7170</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">14157.2600</enthalpy-amorphous>
+              <entropy-amorphous order="4">129.9920</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">7941.3800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">107.5410</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">10264.6000</enthalpy-crystalline>
+              <entropy-crystalline order="9">114.3440</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">9173.8300</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">180.000</temperature>        
+              <heat-capacity-amorphous order="2">138.0010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">15569.9000</enthalpy-amorphous>
+              <entropy-amorphous order="4">138.1500</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">9297.1000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">111.4000</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">11359.1900</enthalpy-crystalline>
+              <entropy-crystalline order="9">120.5930</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">10347.5200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">190.000</temperature>        
+              <heat-capacity-amorphous order="2">140.2860</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">16887.3400</enthalpy-amorphous>
+              <entropy-amorphous order="4">145.1040</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">10682.4200</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">115.2320</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">12492.3600</enthalpy-crystalline>
+              <entropy-crystalline order="9">126.7180</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">11583.9800</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">200.000</temperature>        
+              <heat-capacity-amorphous order="2">142.5710</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">18360.9100</enthalpy-amorphous>
+              <entropy-amorphous order="4">152.8130</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">12201.6900</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">119.0790</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">13664.1300</enthalpy-crystalline>
+              <entropy-crystalline order="9">132.7350</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">12882.9000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">206.700</temperature>        
+              <heat-capacity-amorphous order="2">144.1010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">19291.9700</enthalpy-amorphous>
+              <entropy-amorphous order="4">157.3140</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">13224.8400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">144.1010</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">17190.6300</enthalpy-crystalline>
+              <entropy-crystalline order="9">149.8670</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">13785.5200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">206.700</temperature>        
+              <heat-capacity-amorphous order="2">144.1010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">19291.9700</enthalpy-amorphous>
+              <entropy-amorphous order="4">157.3140</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">13224.8400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">121.7140</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">14470.6300</enthalpy-crystalline>
+              <entropy-crystalline order="9">136.7010</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">13785.5200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">206.700</temperature>        
+              <heat-capacity-amorphous order="2">144.1010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">19291.9700</enthalpy-amorphous>
+              <entropy-amorphous order="4">157.3140</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">13224.8400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">144.1010</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">17190.6300</enthalpy-crystalline>
+              <entropy-crystalline order="9">149.8670</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">13785.5200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">206.700</temperature>        
+              <heat-capacity-amorphous order="2">144.1010</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">19291.9700</enthalpy-amorphous>
+              <entropy-amorphous order="4">157.3140</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">13224.8400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">121.7140</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">14470.6300</enthalpy-crystalline>
+              <entropy-crystalline order="9">136.7010</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">13785.5200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">210.000</temperature>        
+              <heat-capacity-amorphous order="2">144.8550</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">19812.7900</enthalpy-amorphous>
+              <entropy-amorphous order="4">159.9380</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">13774.1900</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">144.8550</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">17667.4100</enthalpy-crystalline>
+              <entropy-crystalline order="9">152.1560</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">14285.3600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">220.000</temperature>        
+              <heat-capacity-amorphous order="2">147.1400</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">21198.7600</enthalpy-amorphous>
+              <entropy-amorphous order="4">166.1610</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">15356.6600</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">147.1400</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">19127.3800</enthalpy-crystalline>
+              <entropy-crystalline order="9">158.9470</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">15840.9600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">230.000</temperature>        
+              <heat-capacity-amorphous order="2">149.4250</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">22740.8400</enthalpy-amorphous>
+              <entropy-amorphous order="4">173.2070</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">17096.7700</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">149.4250</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">20610.2100</enthalpy-crystalline>
+              <entropy-crystalline order="9">165.5380</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">17463.5300</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">240.000</temperature>        
+              <heat-capacity-amorphous order="2">151.7090</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">24217.2200</enthalpy-amorphous>
+              <entropy-amorphous order="4">179.3930</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">18837.1000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">151.7090</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">22115.8800</enthalpy-crystalline>
+              <entropy-crystalline order="9">171.9460</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">19151.1600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">250.000</temperature>        
+              <heat-capacity-amorphous order="2">153.9940</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">25789.8000</enthalpy-amorphous>
+              <entropy-amorphous order="4">185.9680</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">20702.2000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">153.9940</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">23644.4100</enthalpy-crystalline>
+              <entropy-crystalline order="9">178.1860</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">20902.0900</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">260.000</temperature>        
+              <heat-capacity-amorphous order="2">156.2790</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">27267.1500</enthalpy-amorphous>
+              <entropy-amorphous order="4">191.4840</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">22518.6900</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">156.2790</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">25195.7800</enthalpy-crystalline>
+              <entropy-crystalline order="9">184.2700</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">22714.4200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">270.000</temperature>        
+              <heat-capacity-amorphous order="2">158.5630</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">28900.6100</enthalpy-amorphous>
+              <entropy-amorphous order="4">197.8800</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">24526.9900</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">158.5630</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">26769.9800</enthalpy-crystalline>
+              <entropy-crystalline order="9">190.2110</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">24586.9900</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">273.150</temperature>        
+              <heat-capacity-amorphous order="2">159.2830</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">29371.9300</enthalpy-amorphous>
+              <entropy-amorphous order="4">199.5010</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">25121.7700</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">159.2830</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">27270.5900</enthalpy-crystalline>
+              <entropy-crystalline order="9">192.0540</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">25188.9600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">280.000</temperature>        
+              <heat-capacity-amorphous order="2">160.8480</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">30512.4400</enthalpy-amorphous>
+              <entropy-amorphous order="4">203.8010</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">26551.8400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">160.8480</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">28367.0600</enthalpy-crystalline>
+              <entropy-crystalline order="9">196.0190</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">26518.2600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">282.700</temperature>        
+              <heat-capacity-amorphous order="2">161.4650</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">30873.5400</enthalpy-amorphous>
+              <entropy-amorphous order="4">204.7790</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">27017.4800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">161.4650</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">28802.1700</enthalpy-crystalline>
+              <entropy-crystalline order="9">197.5650</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">27049.4600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">282.700</temperature>        
+              <heat-capacity-amorphous order="2">161.4650</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">30873.5400</enthalpy-amorphous>
+              <entropy-amorphous order="4">204.7790</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">27017.4800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">161.4650</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">30642.1700</enthalpy-crystalline>
+              <entropy-crystalline order="9">204.0350</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">27049.4600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">282.700</temperature>        
+              <heat-capacity-amorphous order="2">161.4650</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">30873.5400</enthalpy-amorphous>
+              <entropy-amorphous order="4">204.7790</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">27017.4800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">161.4650</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">28802.1700</enthalpy-crystalline>
+              <entropy-crystalline order="9">197.5650</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">27049.4600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">282.700</temperature>        
+              <heat-capacity-amorphous order="2">161.4650</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">30873.5400</enthalpy-amorphous>
+              <entropy-amorphous order="4">204.7790</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">27017.4800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7">161.4650</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">30642.1700</enthalpy-crystalline>
+              <entropy-crystalline order="9">204.0350</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">27049.4600</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">290.000</temperature>        
+              <heat-capacity-amorphous order="2">163.1330</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">32117.5700</enthalpy-amorphous>
+              <entropy-amorphous order="4">209.3720</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">28600.3100</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7">163.1330</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">31826.9500</enthalpy-crystalline>
+              <entropy-crystalline order="9">208.1730</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">28543.2200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">298.150</temperature>        
+              <heat-capacity-amorphous order="2">164.9940</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">33425.4000</enthalpy-amorphous>
+              <entropy-amorphous order="4">213.6970</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">30288.3700</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7">164.9940</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">33164.0700</enthalpy-crystalline>
+              <entropy-crystalline order="9">212.7200</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">30258.4000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">300.000</temperature>        
+              <heat-capacity-amorphous order="2">165.4170</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">33775.0900</enthalpy-amorphous>
+              <entropy-amorphous order="4">215.0540</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">30741.1100</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7">165.4170</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">33469.7000</enthalpy-crystalline>
+              <entropy-crystalline order="9">213.7420</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">30652.9000</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">308.500</temperature>        
+              <heat-capacity-amorphous order="2">167.3590</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">35115.3700</enthalpy-amorphous>
+              <entropy-amorphous order="4">219.1340</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">32487.4700</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7">167.3590</heat-capacity-crystalline>
+              <enthalpy-crystalline order="8">34884.0000</enthalpy-crystalline>
+              <entropy-crystalline order="9">218.3910</entropy-crystalline>
+              <gibbs-energy-crystalline order="10">32489.6200</gibbs-energy-crystalline>
+              <note-crystalline refID="4" order="11">4</note-crystalline>
+            </row>
+            <row>
+              <temperature order="1">310.000</temperature>        
+              <heat-capacity-amorphous order="2">167.7020</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">35425.9200</enthalpy-amorphous>
+              <entropy-amorphous order="4">220.4020</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">32898.7000</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">320.000</temperature>        
+              <heat-capacity-amorphous order="2">169.9860</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">37085.0600</enthalpy-amorphous>
+              <entropy-amorphous order="4">225.5400</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">35087.7400</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">330.000</temperature>        
+              <heat-capacity-amorphous order="2">172.2710</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">38840.4100</enthalpy-amorphous>
+              <entropy-amorphous order="4">231.1420</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">37436.4500</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">340.000</temperature>        
+              <heat-capacity-amorphous order="2">174.5560</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">40500.5300</enthalpy-amorphous>
+              <entropy-amorphous order="4">235.7500</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">39654.4700</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">350.000</temperature>        
+              <heat-capacity-amorphous order="2">176.8400</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">42316.7700</enthalpy-amorphous>
+              <entropy-amorphous order="4">241.2980</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">42137.5300</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">360.000</temperature>        
+              <heat-capacity-amorphous order="2">179.1250</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">44067.3000</enthalpy-amorphous>
+              <entropy-amorphous order="4">246.0900</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">44525.1000</gibbs-energy-amorphous>
+              <note-amorphous refID="0" order="6"/>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">370.000</temperature>        
+              <heat-capacity-amorphous order="2">181.4100</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">45914.0300</enthalpy-amorphous>
+              <entropy-amorphous order="4">251.3640</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">47090.6500</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">380.000</temperature>        
+              <heat-capacity-amorphous order="2">183.6940</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">47665.5400</enthalpy-amorphous>
+              <entropy-amorphous order="4">255.6640</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">49486.7800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">390.000</temperature>        
+              <heat-capacity-amorphous order="2">185.9790</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">49573.1600</enthalpy-amorphous>
+              <entropy-amorphous order="4">260.9200</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">52185.6400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">400.000</temperature>        
+              <heat-capacity-amorphous order="2">188.2640</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">51415.0700</enthalpy-amorphous>
+              <entropy-amorphous order="4">265.4350</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">54758.9300</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">410.000</temperature>        
+              <heat-capacity-amorphous order="2">190.5480</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">53353.2000</enthalpy-amorphous>
+              <entropy-amorphous order="4">270.4480</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">57530.4800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">420.000</temperature>        
+              <heat-capacity-amorphous order="2">192.8330</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">55196.0900</enthalpy-amorphous>
+              <entropy-amorphous order="4">274.4980</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">60093.0700</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">430.000</temperature>        
+              <heat-capacity-amorphous order="2">195.1180</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">57195.0900</enthalpy-amorphous>
+              <entropy-amorphous order="4">279.5180</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">62997.6500</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">440.000</temperature>        
+              <heat-capacity-amorphous order="2">197.4020</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">59128.3900</enthalpy-amorphous>
+              <entropy-amorphous order="4">283.8070</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">65746.6900</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">450.000</temperature>        
+              <heat-capacity-amorphous order="2">199.6870</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">61157.9000</enthalpy-amorphous>
+              <entropy-amorphous order="4">288.6050</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">68714.3500</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">460.000</temperature>        
+              <heat-capacity-amorphous order="2">201.9710</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">63092.1700</enthalpy-amorphous>
+              <entropy-amorphous order="4">292.4500</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">71434.8300</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">470.000</temperature>        
+              <heat-capacity-amorphous order="2">204.2560</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">65182.5700</enthalpy-amorphous>
+              <entropy-amorphous order="4">297.2730</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">74535.7400</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">480.000</temperature>        
+              <heat-capacity-amorphous order="2">206.5410</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">67207.2500</enthalpy-amorphous>
+              <entropy-amorphous order="4">301.3750</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">77452.7500</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">490.000</temperature>        
+              <heat-capacity-amorphous order="2">208.8250</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">69328.1500</enthalpy-amorphous>
+              <entropy-amorphous order="4">305.9930</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">80608.4200</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">500.000</temperature>        
+              <heat-capacity-amorphous order="2">211.1100</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">71353.8100</enthalpy-amorphous>
+              <entropy-amorphous order="4">309.6670</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">83479.6900</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">510.000</temperature>        
+              <heat-capacity-amorphous order="2">213.3950</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">73535.5800</enthalpy-amorphous>
+              <entropy-amorphous order="4">314.3250</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">86770.1700</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">520.000</temperature>        
+              <heat-capacity-amorphous order="2">215.6790</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">75651.6600</enthalpy-amorphous>
+              <entropy-amorphous order="4">318.2680</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">89847.7000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">530.000</temperature>        
+              <heat-capacity-amorphous order="2">217.9640</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">77863.9400</enthalpy-amorphous>
+              <entropy-amorphous order="4">322.7340</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">93185.0800</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">540.000</temperature>        
+              <heat-capacity-amorphous order="2">220.2490</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">79980.9800</enthalpy-amorphous>
+              <entropy-amorphous order="4">326.2610</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">96199.9600</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">550.000</temperature>        
+              <heat-capacity-amorphous order="2">222.5330</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">82254.1400</enthalpy-amorphous>
+              <entropy-amorphous order="4">330.7780</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">99673.7600</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">560.000</temperature>        
+              <heat-capacity-amorphous order="2">224.8180</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">84461.6000</enthalpy-amorphous>
+              <entropy-amorphous order="4">334.5860</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">102906.6000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">570.000</temperature>        
+              <heat-capacity-amorphous order="2">227.1030</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">86765.2700</enthalpy-amorphous>
+              <entropy-amorphous order="4">338.9220</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">106420.3000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">580.000</temperature>        
+              <heat-capacity-amorphous order="2">229.3870</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">88973.7000</enthalpy-amorphous>
+              <entropy-amorphous order="4">342.3220</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">109573.1000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">590.000</temperature>        
+              <heat-capacity-amorphous order="2">231.6720</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">91338.2500</enthalpy-amorphous>
+              <entropy-amorphous order="4">346.7180</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">113225.4000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">600.000</temperature>        
+              <heat-capacity-amorphous order="2">233.9560</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">93637.0900</enthalpy-amorphous>
+              <entropy-amorphous order="4">350.4090</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">116608.3000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">610.000</temperature>        
+              <heat-capacity-amorphous order="2">236.2410</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">96032.1400</enthalpy-amorphous>
+              <entropy-amorphous order="4">354.6310</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">120292.8000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">620.000</temperature>        
+              <heat-capacity-amorphous order="2">238.5260</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">98331.9600</enthalpy-amorphous>
+              <entropy-amorphous order="4">357.9220</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">123579.7000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">630.000</temperature>        
+              <heat-capacity-amorphous order="2">240.8100</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">100787.9000</enthalpy-amorphous>
+              <entropy-amorphous order="4">362.2120</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">127405.7000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">640.000</temperature>        
+              <heat-capacity-amorphous order="2">243.0950</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">103178.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">365.8000</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">130933.9000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">650.000</temperature>        
+              <heat-capacity-amorphous order="2">245.3800</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">105664.6000</enthalpy-amorphous>
+              <entropy-amorphous order="4">369.9220</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">134784.7000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">660.000</temperature>        
+              <heat-capacity-amorphous order="2">247.6640</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">108055.8000</enthalpy-amorphous>
+              <entropy-amorphous order="4">373.1170</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">138201.5000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">670.000</temperature>        
+              <heat-capacity-amorphous order="2">249.9490</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">110603.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">377.3140</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">142197.3000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">680.000</temperature>        
+              <heat-capacity-amorphous order="2">252.2340</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">113084.7000</enthalpy-amorphous>
+              <entropy-amorphous order="4">380.8120</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">145867.5000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">690.000</temperature>        
+              <heat-capacity-amorphous order="2">254.5180</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">115662.5000</enthalpy-amorphous>
+              <entropy-amorphous order="4">384.8460</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">149881.2000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+            <row>
+              <temperature order="1">700.000</temperature>        
+              <heat-capacity-amorphous order="2">256.8030</heat-capacity-amorphous>
+              <enthalpy-amorphous order="3">118145.1000</enthalpy-amorphous>
+              <entropy-amorphous order="4">387.9560</entropy-amorphous>
+              <gibbs-energy-amorphous order="5">153424.1000</gibbs-energy-amorphous>
+              <note-amorphous refID="3" order="6">3</note-amorphous>
+              <heat-capacity-crystalline order="7"/>
+              <enthalpy-crystalline order="8"/>
+              <entropy-crystalline order="9"/>
+              <gibbs-energy-crystalline order="10"/>
+              <note-crystalline refID="0" order="11"/>
+            </row>
+         </rows>
+        </data>
+      </data-table>
+      <data-table order="2" id="4" name="Explanations on Calculated Data">
+        <header>
+          <title>Explanations on Calculated Data</title>
+          <columns>
+            <column order="1" type="text">
+              <name>Label</name>
+            </column>
+            <column order="2" type="text">
+              <name>Description</name>
+            </column>
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row refID="0">
+              <label order="1">default</label>
+              <description order="2">Smoothed experimental <i>C</i><sub>p</sub> data</description>
+            </row>
+            <row refID="1">
+              <label order="1">1</label>
+              <description order="2">Calculated solid <i>C</i><sub>p</sub> agrees with experimental data (&lt; 3%)</description>
+            </row>
+            <row refID="2">
+              <label order="1">2</label>
+              <description order="2">Calculated liquid <i>C</i><sub>p</sub> agrees with experimental data (&lt; 5%)</description>
+            </row>
+            <row refID="3">
+              <label order="1">3</label>
+              <description order="2">Linearly extrapolated experimental liquid <i>C</i><sub>p</sub> data</description>
+            </row>
+            <row refID="4">
+              <label order="1">4</label>
+              <description order="2">Calculated solid <i>C</i><sub>p</sub> lacks comparison with experimental data (&gt; 3%)</description>
+            </row>
+            <row refID="5">
+              <label order="1">5</label>
+              <description order="2">Calculated liquid <i>C</i><sub>p</sub> lacks comparison with experimental data (&gt; 5%)</description>
+            </row>
+            <row refID="6">
+              <label order="1">6</label>
+              <description order="2">Crystalline <i>C</i><sub>p</sub> data approximated by the <i>C</i><sub>p</sub> data of glass</description>
+            </row>
+            <row refID="7">
+              <label order="1">7</label>
+              <description order="2">Glassy <i>C</i><sub>p</sub> data approximated by the <i>C</i><sub>p</sub> data of crystals</description>
+            </row>
+          </rows>
+        </data>
+      </data-table>
+      <data-table order="3" id="6" name="Extended Substance Data">
+        <header>
+          <title>Extended Substance Data on Poly(diethyl siloxane) (PDES)</title>
+          <description>Data on poly(diethyl siloxane) (PDES) relevant to the computation of thermal properties.</description>
+          <preview-content>
+            <content-intro>Data for poly(diethyl siloxane) (PDES) on</content-intro>
+            <content order="1">glass transition temperature <i>T</i><sub>g</sub></content>
+            <content order="2">change in heat capacity at glass transition</content>
+            <content order="3">melting temperature <i>T</i><sub>m</sub></content>
+            <content order="4">heat of fusion per repeating unit ∆<i>H</i><sub>f</sub></content>
+            <content order="5">residual entropy at zero temperature <i>S</i><sub>0</sub> in the glassy and crystalline state</content>
+            <content order="6">intramolecular vibrational parameter <i>θ</i><sub>1</sub> for the skeletal heat capacity to compute <i>C</i><sub>p</sub> using the Tarasov function in the amorphous and crystalline state</content>
+            <content order="7">intermolecular vibrational parameter <i>θ</i><sub>3</sub> for the skeletal heat capacity to compute <i>C</i><sub>p</sub> using the Tarasov function in the crystalline phase</content>
+            <content order="8">number of skeletal vibrational modes <i>N</i><sub>s</sub> used in the Tarasov equation in the amorphous and crystalline state</content>
+            <content order="9">temperature range of the ATHAS recommended experimental heat capacity data in the amorphous and crystalline state</content>
+            <content order="10">Lindemann constant <i>A</i><sub>0</sub></content>
+          </preview-content>
+          <columns>
+            <column order="1" type="text">
+              <name>Polymer Property</name>
+              <lookup-table-id>7</lookup-table-id>
+              <lookup-table>Explanation of Symbols</lookup-table>
+            </column>
+            <column order="2" type="text">
+              <name>Crystalline Phase</name>
+            </column>
+            <column order="3" type="text">
+              <name>Amorphous Phase</name>
+            </column>
+            <column order="4" type="reference">
+              <name>Reference</name>
+              <lookup-table-id>8</lookup-table-id>
+              <lookup-table>List of References</lookup-table>
+            </column>       
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row><!-- glass transition temperature -->
+              <polymer-property order="1" refID="1"><i>T</i><sub>g</sub> [K]</polymer-property>
+              <crystalline-phase order="2"/>
+              <amorphous-phase order="3">135</amorphous-phase>
+              <reference order="4" refID="52"/>
+            </row>
+            <row><!-- change in the heat capacity at glass transition -->
+              <polymer-property order="1" refID="2">∆<i>C</i><sub>p</sub> [J/(K·mol)]</polymer-property>
+              <crystalline-phase order="2"/>
+              <amorphous-phase order="3">30.2 (2)</amorphous-phase>
+              <reference order="4" refID="29"/>
+            </row>
+            <row><!-- melting temperature -->
+              <polymer-property order="1" refID="3"><i>T</i><sub>m</sub> [K]</polymer-property>
+              <crystalline-phase order="2">282.7</crystalline-phase>
+              <amorphous-phase order="3"/>
+              <reference order="4" refID="55"/>
+            </row>
+            <row><!-- heat of fusion of repeating unit -->
+              <polymer-property order="1" refID="4">∆<i>H</i><sub>f</sub> [kJ/K]</polymer-property>
+              <crystalline-phase order="2">1.84</crystalline-phase>
+              <amorphous-phase order="3"/>
+              <reference order="4" refID="55"/>
+            </row>
+            <row><!-- residual entropy in the glassy state at zero temperature -->
+              <polymer-property order="1" refID="5"><i>S</i><sub>0</sub> [J/(K·mol)]</polymer-property>
+              <crystalline-phase order="2">0</crystalline-phase>
+              <amorphous-phase order="3">8.4</amorphous-phase>
+              <reference order="4" refID="55"/>
+            </row>
+            <row><!-- theta 1 parameter for the skeletal heat capacity -->
+              <polymer-property order="1" refID="6"><i>Θ</i><sub>1</sub> [K]</polymer-property>
+              <crystalline-phase order="2">480</crystalline-phase>
+              <amorphous-phase order="3">480</amorphous-phase>
+              <reference order="4" refID="55"/>
+            </row>
+            <row><!-- theta 3 parameter for the skeletal heat capacity -->
+              <polymer-property order="1" refID="6"><i>Θ</i><sub>3</sub> [K]</polymer-property>
+              <crystalline-phase order="2">87</crystalline-phase>
+              <amorphous-phase order="3">?</amorphous-phase>
+              <reference order="4" refID="55"/>
+            </row>
+            <row><!-- number of skeletal vibrational modes -->
+              <polymer-property order="1" refID="7"><i>N</i><sub>s</sub></polymer-property>
+              <crystalline-phase order="2">14</crystalline-phase>
+              <amorphous-phase order="3">14</amorphous-phase>
+              <reference order="4" refID="55"/>
+            </row>
+            <row><!-- temperature range of the ATHAS recommended experimental heat capacity data -->
+              <polymer-property order="1" refID="8"><i>C</i><sub>p</sub> temperature range [K]</polymer-property>
+              <crystalline-phase order="2">10 … 135</crystalline-phase>
+              <amorphous-phase order="3">135 … 360</amorphous-phase>
+              <reference order="4" refID="29"/>
+            </row>
+            <row><!-- Lindemann constant -->
+              <polymer-property order="1" refID="9"><i>A</i><sub>0</sub> [mK·mol/J]</polymer-property>
+              <crystalline-phase order="2">3.9</crystalline-phase>
+              <amorphous-phase order="3">3.9</amorphous-phase>
+              <reference order="4" refID="26"/>
+            </row>
+          </rows>
+        </data>
+        <footer>
+          <title>Comments</title>
+          <description>Comments on the Extended Substance Data table</description>
+          <footer-content>
+            <content order="1">See below for an explanation of symbols.</content>
+            <content order="2">Change in heat capacity at glass transition: Number in parentheses refers to the small beads that make up the repeating unit.</content>
+            <content order="3">Temperature range of the ATHAS recommended experimental heat capacity data: Heat capacities for semicrystalline polymers were used as approximation for the solid phase.</content>
+            <content order="4">Note that all data are chosen to be a close approximation to equilibrium crystals and its superheated state or equilibrium melt and its supercooled state. The normally found solids are often metastable, semicrystalline. The melting and glass transition behavior of these can be used for characterization of the structure, as described in Ref. [<reference tableID="8" refID="10"/>]. The heat capacites and integral thermal properties <i>H</i>, <i>S</i>, <i>G</i> are well represented by adding the appropriate fractional portions according to the weight fraction crystallinity.</content>
+          </footer-content>
+        </footer>
+      </data-table>
+      <data-table order="4" id="7" name="Explanation of Symbols">
+        <header>
+          <title>Explanation of Symbols</title>
+          <columns>
+            <column order="1" type="text">
+              <name>Label</name>
+            </column>
+            <column order="2" type="text">
+              <name>Description</name>
+            </column>
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row refID="1">
+              <label order="1"><i>T</i><sub>g</sub></label>
+              <description order="2">Glass transition temperature in Kelvin, taken at the half-vitrification at about 1…10 K·min<sup>−1</sup> if available. See Ref. [<reference tableID="8" refID="69"/>] of the list of publications.</description>
+            </row>
+            <row refID="2">
+              <label order="1">∆<i>C</i><sub>p</sub></label>
+              <description order="2">The change in the heat capacity, listed in J/(K·mol), at the glass transition temperature <i>T</i><sub>g</sub>. The first number in parentheses refers to the small beads that make up the repeating unit. The average increase in <i>C</i><sub>p</sub> at <i>T</i><sub>g</sub> of all listed molecules is 11.5±1.7 J/(K·mol). The second number refers to large beads. The increase in <i>C</i><sub>p</sub> of a large bead at <i>T</i><sub>g</sub> is double or triple that of a small bead.</description>
+            </row>
+            <row refID="3">
+              <label order="1"><i>T</i><sub>m</sub></label>
+              <description order="2">Melting temperature in Kelvin. Equilibrium melting temperature estimated from experimental data or extrapolated from the melting of small crystals.</description>
+            </row>
+            <row refID="4">
+              <label order="1">∆<i>H</i><sub>f</sub></label>
+              <description order="2">The heat of fusion of repeating unit in kJ/K. It is computed for 100% crystallinity.</description>
+            </row>
+            <row refID="5">
+              <label order="1"><i>S</i><sub>0</sub></label>
+              <description order="2">Residual entropy in the glassy state at zero temperature, in J/(K·mol).</description>
+            </row>
+            <row refID="6">
+              <label order="1"><i>Θ</i><sub>1</sub> and <i>Θ</i><sub>3</sub></label>
+              <description order="2">Parameters for the skeletal heat capacity needed to compute <i>C</i><sub>p</sub> using the Tarasov function (<i>Θ</i><sub>1</sub>: intramolecular vibrations, <i>Θ</i><sub>3</sub>: intermolecular vibrations). Freqency given in Kelvin. See Ref. [<reference tableID="8" refID="70"/>] of the list of publications.</description>
+            </row>
+            <row refID="7">
+              <label order="1"><i>N</i><sub>s</sub></label>
+              <description order="2">The number of skeletal vibrational modes used in the Tarasov equation with the <i>Θ</i> temperatures of the previous two columns. Values of <i>Θ</i> temperatures in parentheses are estimates based on data from polymers of similar backbone structure. The group vibration frequencies (<i>N</i><sub>g</sub>) are usually tabulated in the listed references: <i>N</i><sub>s</sub> + <i>N</i><sub>g</sub> is the number of degrees of freedom (three times the number of atoms in the repeating units).</description>
+            </row>
+            <row refID="8">
+              <label order="1"><i>C</i><sub>p</sub> temperature range</label>
+              <description order="2">Temperature range of the ATHAS recommended experimental heat capacity data in Kelvin. The computations of heat capacities of solids are based on these data and are usually carried out from 0.1 to 1000 K, to provide sufficiently broad ranges of temperature for the addition schemes and for analysis of superheated polymers, as in laser ablation studies.</description>
+            </row>
+            <row refID="9">
+              <label order="1"><i>A</i><sub>0</sub></label>
+              <description order="2">The Lindemann constant in mK·mol/J.</description>
+            </row>
+          </rows>
+        </data>
+      </data-table>  
+      <data-table order="5" id="8" name="List of References">
+        <header>
+          <title>List of References</title>
+          <columns>
+            <column order="1" type="text">
+              <name>Short Description</name>
+            </column>
+            <column order="2" type="text">
+              <name>Full Reference</name>
+            </column>
+            <column order="3" type="text">
+              <name>DOI</name>
+            </column>                    
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row refID="10">
+              <short-description order="1">Wunderlich (1980)</short-description>
+              <full-reference order="2">Wunderlich, B.: <i>Macromolecular Physics. Vol. 3: Crystal Melting.</i> Academic Press, New York, NY 1980.</full-reference>
+              <doi order="3"/>
+            </row>
+            <row refID="26">
+              <short-description order="1">Pan (1989)</short-description>
+              <full-reference order="2">Pan, R., Varma-Nair, M., Wunderlich, B.: J. Thermal Analysis <b>35</b> (1989) 955.</full-reference>
+              <doi order="3">10.1007/BF02057252</doi>
+            </row>
+            <row refID="29">
+              <short-description order="1">Varma-Nair (1991)</short-description>
+              <full-reference order="2">Varma-Nair, M., Wunderlich, B.: J. Phys. Chem. Ref. Data <b>20</b> (1991) 349.</full-reference>
+              <doi order="3">10.1063/1.555882</doi>
+            </row>
+            <row refID="52">
+              <short-description order="1">Wesson (1988)</short-description>
+              <full-reference order="2">Wesson, J. P.: Ph.D. dissertation, Rensselaer Polytechnic Institute, Troy, NY 1988.</full-reference>
+              <doi order="3"/>
+            </row>
+            <row refID="55">
+              <short-description order="1">Varma-Nair (1989)</short-description>
+              <full-reference order="2">Varma-Nair, M., Wesson, J. P., Wunderlich, B.: J. Thermal Analysis <b>35</b> (1989) 1913.</full-reference>
+              <doi order="3">10.1007/BF01911676</doi>
+            </row>
+            <row refID="69">
+              <short-description order="1">Xenopoulos (1993)</short-description>
+              <full-reference order="2">Xenopoulos, A., Roles, K., Wunderlich, B.: Polymer <b>34</b> (1993) 2559.</full-reference>
+              <doi order="3">10.1016/0032-3861(93)90589-3</doi>
+            </row>
+            <row refID="70">
+              <short-description order="1">Wunderlich (2005)</short-description>
+              <full-reference order="2">Wunderlich, B.: <i>Thermal Analysis of Polymeric Materials</i>. 894+xvi pages, 947 figures. Springer-Verlag, Berlin 2005.</full-reference>
+              <doi order="3">10.1007/b137476</doi>
+            </row>
+          </rows>
+        </data>
+      </data-table>  
+    </data-tables>
+    <search-metadata>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-lmltkl1ng1149jmhah0jj3vkn8u5uk2d">Heat Capacity</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-4p1kdu2bbr61jgbk2stde5v2dp34qb3q">Enthalpy</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-hd0v19uajat2i7jla056knur271t8jsa">Entropy</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-d0j6r07lfn37lngvk13e0m7cllitlb9p">Gibbs Energy</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-esbdjtbu40ikfdkt94fi9440vl4la1o4">Glass Transition Temperature</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-1m7c4eivgg1e3b3blqghupui7vc0s7n0">Melting Temperature</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-mfaanvetpuh6c2d7190offksaatvioo7">Change in Heat Capacity</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-kmj2vj2006hsgoolah3u7q1cb1edcqe">Residual Entropy</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-63k2umsv97nilu6r6lnbvotecg30biho">Vibrational Heat Capacity</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="">Poly(diethyl siloxane)</substance>
+        <property ID="PhysProp-ft3a2d87sin7rtapesh1pbnbpbquuc1b">Heat of Fusion</property>
+      </substance-property-block>
+    </search-metadata>
+    <search-snippet>
+      <snippet order="1">Temperature Range (0.100 ... 700.000) K</snippet>
+    </search-snippet>
+    <about-content>
+      <DatabaseTradeName>The Advanced THermal Analysis System (ATHAS) Databank – Polymer Thermodynamics</DatabaseTradeName>
+      <DatasetID>athas_0118</DatasetID>  
+      <DatasetCopyright>
+        <CopyrightHolderName>Springer-Verlag Berlin Heidelberg &amp; Marek Pyda</CopyrightHolderName>
+        <CopyrightYear>2014</CopyrightYear>
+      </DatasetCopyright>
+      <Editor>
+        <Name DisplayOrder="Western">Marek Pyda</Name>
+        <Email>mppyda@prz.rzeszow.pl</Email>
+      </Editor>
+      <credits>
+        <logo>
+          <image order="1">
+            <file-path/>
+            <file-name>ATHAS_Logo_80x35.png</file-name>
+            <file-size>7612</file-size>
+            <description>Logo of the ATHAS database as a 89 by 35 pixel PNG file</description>
+            <caption>ATHAS Logo</caption>
+          </image>
+        </logo>
+        <comments>
+          <comment order="1">ATHAS Database. SpringerMaterials Release 2014. Version 2014.06.</comment>
+          <comment order="2">All Rights Reserved.</comment>
+        </comments>
+      </credits>
+    </about-content>
+  </content>
+</Database>

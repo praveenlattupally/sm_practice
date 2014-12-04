@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+     <content>
+    <Substance ID="DWNYPCPOCIAXJBHJ">
+      <SubstanceNameGroup>
+        <SubstanceName>Fe<sub>3</sub>(AsO<sub>4</sub>)<sub>2</sub>8H<sub>2</sub>O</SubstanceName>
+      </SubstanceNameGroup>
+      <SubstanceIdentifierGroup>
+      </SubstanceIdentifierGroup>
+       </Substance>
+    <search-metadata>
+      <MolecularFormula Type="Hill">As2Fe3H16O16</MolecularFormula>
+    </search-metadata>
+    <about-content>
+       <DatasetID>smsid_dwnypcpociaxjbhj</DatasetID>
+    </about-content>
+     </content>
+</Database>

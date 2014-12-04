@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+  <DatabaseInfo>
+      <DatabaseID>ads</DatabaseID>
+  </DatabaseInfo>
+  <DatasetInfo TocLevels="0" NumberingStyle="Unnumbered" ContainsESM="No" DatasetType="Datasheet">
+      <DatasetTitle Language="En">Adsorption isotherm for carbon dioxide on NaX (framework type FAU zeolite)
+    </DatasetTitle>
+      <DatasetCopyright>
+         <CopyrightHolderName>Springer-Verlag Berlin Heidelberg</CopyrightHolderName>
+         <CopyrightYear>2013</CopyrightYear>
+      </DatasetCopyright>
+      <Editor>
+         <Name DisplayOrder="Western">Orhan Talu</Name>
+         <Email>o.talu@csuohio.edu</Email>
+      </Editor>
+      <adsorbate>
+         <name>carbon dioxide</name>
+         <cas-number>124-38-9</cas-number>
+         <molecular-formula>CO<sub>2</sub>
+         </molecular-formula>
+         <molecular-weight>44.01</molecular-weight>
+         <normal-boiling-point> K</normal-boiling-point>
+         <critical-temperature>304.18 K</critical-temperature>
+         <critical-pressure>7380 kPa</critical-pressure>
+         <critical-volume>91.9 cm<sup>3</sup>/mol</critical-volume>
+      </adsorbate>
+      <adsorbent>
+         <name>NaX</name>
+         <solid-class>zeolite</solid-class>
+         <solid-sub-class>FAU</solid-sub-class>
+         <descriptions>
+            <description>
+               <title> Volume</title>
+               <value> 0.283 cm<sup>3</sup>/g</value>
+            </description>
+            <description>
+               <title> Area</title>
+               <value> 685 m<sup>2</sup>/g</value>
+            </description>
+            <description>
+               <title> Si/Al Ratio</title>
+               <value> 1.25</value>
+            </description>
+            <description>
+               <title>Binder</title>
+               <value> 16%</value>
+            </description>
+         </descriptions>
+         <supplier/>
+         <form>pellets</form>
+      </adsorbent>
+  </DatasetInfo>
+  <Datasets>
+      <Dataset>
+        <bucket-details>
+            <bucket-name>ads000448</bucket-name>
+            <bucket-number>056</bucket-number>
+        </bucket-details>
+        <temperature>
+            <value>303</value>
+            <unit>K</unit>
+         </temperature>
+         <DatasetID>ads000448</DatasetID>
+         <subtitle>
+            <Emphasis Type="Italic">T</Emphasis> = 303 K</subtitle>
+         <experimental-setup>
+            <data-type>table</data-type>
+            <lab/>
+            <method>gravimetric</method>
+            <apparatus/>
+            <quality/>
+            <remark/>
+         </experimental-setup>
+         <experiment-data>
+            <data>
+               <pressure>
+                  <value>5.02</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>0.555</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>10.81</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.145</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>21.39</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.171</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>38.73</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.92</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>69.02</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.465</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>132.1</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.946</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>270.7</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.399</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>511.4</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.743</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>770.3</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.936</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>908.8</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.994</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>1080.7</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>6.07</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>1205.1</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>6.12</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+         </experiment-data>
+      </Dataset>
+      <Dataset>
+        <bucket-details>
+            <bucket-name>ads000452</bucket-name>
+            <bucket-number>081</bucket-number>
+        </bucket-details>
+        <temperature>
+            <value>323</value>
+            <unit>K</unit>
+         </temperature>
+         <DatasetID>ads000452</DatasetID>
+         <subtitle>
+            <Emphasis Type="Italic">T</Emphasis> = 323 K</subtitle>
+         <experimental-setup>
+            <data-type>table</data-type>
+            <lab/>
+            <method>gravimetric</method>
+            <apparatus/>
+            <quality/>
+            <remark/>
+         </experimental-setup>
+         <experiment-data>
+            <data>
+               <pressure>
+                  <value>11.16</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>1.49</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>20.97</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.25</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>65.03</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.506</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>110.9</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.972</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>169.6</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.274</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>252.5</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.589</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>329.4</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.803</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>433.5</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.017</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>538.7</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.147</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>631.7</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.259</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>729.8</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.337</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>849.2</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.43</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+         </experiment-data>
+      </Dataset>
+      <Dataset>
+        <bucket-details>
+            <bucket-name>ads000456</bucket-name>
+            <bucket-number>085</bucket-number>
+        </bucket-details>
+        <temperature>
+            <value>373</value>
+            <unit>K</unit>
+         </temperature>
+         <DatasetID>ads000456</DatasetID>
+         <subtitle>
+            <Emphasis Type="Italic">T</Emphasis> = 373 K</subtitle>
+         <experimental-setup>
+            <data-type>table</data-type>
+            <lab/>
+            <method>gravimetric</method>
+            <apparatus/>
+            <quality/>
+            <remark/>
+         </experimental-setup>
+         <experiment-data>
+            <data>
+               <pressure>
+                  <value>20.9</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>0.945</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>48.21</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>1.856</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>78.55</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.346</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>111.9</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.769</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>165.5</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.213</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>239.3</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.638</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>309.1</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.932</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>407.2</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.248</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>560.9</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.562</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>712.6</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.77</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>865.3</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>4.909</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>1013</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.043</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>1207.1</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>5.176</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+         </experiment-data>
+      </Dataset>
+      <Dataset>
+        <bucket-details>
+            <bucket-name>ads000460</bucket-name>
+            <bucket-number>110</bucket-number>
+        </bucket-details>
+        <temperature>
+            <value>473</value>
+            <unit>K</unit>
+         </temperature>
+         <DatasetID>ads000460</DatasetID>
+         <subtitle>
+            <Emphasis Type="Italic">T</Emphasis> = 473 K</subtitle>
+         <experimental-setup>
+            <data-type>table</data-type>
+            <lab/>
+            <method>gravimetric</method>
+            <apparatus/>
+            <quality/>
+            <remark/>
+         </experimental-setup>
+         <experiment-data>
+            <data>
+               <pressure>
+                  <value>29.1</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>0.396</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>71</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>0.701</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>145.3</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>1.077</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>245.4</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>1.496</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>356.6</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>1.907</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>474</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.173</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>704.5</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.643</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>866.3</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>2.882</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>1046.4</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.09</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+            <data>
+               <pressure>
+                  <value>1185.9</value>
+                  <unit>kPa</unit>
+               </pressure>
+               <sorption type="Adsorption">
+                  <value>3.22</value>
+                  <unit>mol/kg</unit>
+               </sorption>
+            </data>
+         </experiment-data>
+      </Dataset>
+  </Datasets>
+  <search-metadata>
+      <substance-property-block>
+         <substance ID="OPYSRKKLMFNJKQQV">carbon dioxide</substance>
+         <property ID="PhysProp-t6v0pjdnth8djqldj35flka1j91076o6">Adsorption</property>
+      </substance-property-block>
+      <MolecularFormula Type="Hill">CO2</MolecularFormula>
+      <Substance ID="OPYSRKKLMFNJKQQV" ShowSubstanceProfile="true">
+         <SubstanceNameGroup>
+            <SubstanceName AutoSuggestName="true">carbonic anhydride</SubstanceName>
+            <SubstanceName AutoSuggestName="true">CO<Subscript>2</Subscript> (carbon dioxide)</SubstanceName>
+            <SubstanceName AutoSuggestName="true">dry ice</SubstanceName>
+            <SubstanceName AutoSuggestName="true">methanedione</SubstanceName>
+            <SubstanceName Language="DE">Kohlendioxid</SubstanceName>
+            <SubstanceName Language="DE">Kohlensäure</SubstanceName>
+            <SubstanceName Language="DE">Kohlensäureanhydrid</SubstanceName>
+            <SubstanceName Language="DE">Kohlenstoffdioxid</SubstanceName>
+            <SubstanceName Language="DE">Trockeneis</SubstanceName>
+            <SubstanceName Type="IUPACName">carbon dioxide</SubstanceName>
+            <SubstanceName Type="PreferredName">carbon dioxide</SubstanceName>
+            <SubstanceName Type="SystematicName">carbon dioxide</SubstanceName>
+            <SubstanceName>carbon (IV) oxide</SubstanceName>
+            <SubstanceName>Carbon oxide (CO2)</SubstanceName>
+            <SubstanceName>Carbon-12 dioxide</SubstanceName>
+            <SubstanceName>Carbonic acid anhydride</SubstanceName>
+            <SubstanceName>Carbonic acid gas</SubstanceName>
+            <SubstanceName>CO<Subscript>2</Subscript>
+            </SubstanceName>
+            <SubstanceName>E 290</SubstanceName>
+            <SubstanceName>Khladon 744</SubstanceName>
+            <SubstanceName>R 744</SubstanceName>
+         </SubstanceNameGroup>
+         <SubstanceIdentifierGroup>
+            <SubstanceIdentifier Type="CASNo">124-38-9</SubstanceIdentifier>
+            <SubstanceIdentifier Type="InChi">InChI=1S/CO2/c2-1-3</SubstanceIdentifier>
+            <SubstanceIdentifier Type="InChiKey">CURLTUGMZLYLDI-UHFFFAOYSA-N</SubstanceIdentifier>
+            <SubstanceIdentifier Type="PubChemCID">280</SubstanceIdentifier>
+            <SubstanceIdentifier Type="SpresiID">2268358-200</SubstanceIdentifier>
+         </SubstanceIdentifierGroup>
+         <SubstanceFormulaGroup>
+            <ElementSystem>C-O</ElementSystem>
+            <SubstanceFormula Type="Hill">CO<Subscript>2</Subscript>
+            </SubstanceFormula>
+            <StructureFile Type="MDLMolfile2D" Encoding="base64">CiAgU2NpRGV4ICAwNjExMTAwMDAwMkQgMQoKICAzICAyICAwICAwICAwICAwICAwICAwICAwICAwICAxIFYyMDAwCiAgICAzLjAwMCAgICAgMC4wMDAgICAgIDAuMDAwICBPICAgMCAgMCAgMCAgMCAgMCAgMAogICAgMS41MDAgICAgIDAuMDAwICAgICAwLjAwMCAgQyAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuMDAwICAgICAwLjAwMCAgICAgMC4wMDAgIE8gICAwICAwICAwICAwICAwICAwCiAgMSAgMiAgMiAgMCAgMCAgMCAgMAogIDIgIDMgIDIgIDAgIDAgIDAgIDAKTSAgRU5ECg==</StructureFile>
+            <StructureFile Type="MDLMolfile3D" Encoding="base64">Y2FyYm9uIGRpb3hpZGUKICAtT0VDaGVtLTA5MjMxMDEwMjIzRAoKICAzICAyICAwICAgICAwICAwICAwICAwICAwICAwOTk5IFYyMDAwCiAgICAwLjAwMDAgICAgMC4wMDAwICAgIDAuMDAwMCBPICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgMC4zNDYxICAgIDIuMDM1NSAgIC0xLjIxMTYgTyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuMTczMSAgICAxLjAxNzggICAtMC42MDU4IEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgMSAgMyAgMiAgMCAgMCAgMCAgMAogIDIgIDMgIDIgIDAgIDAgIDAgIDAKTSAgRU5E</StructureFile>
+         </SubstanceFormulaGroup>
+         <ClassificationGroup>
+            <ClassificationRef ClassificationID="SubstTaxPhys-3300"/>
+         </ClassificationGroup>
+         <CatalogGroup>
+      </CatalogGroup>
+         <SubstanceFlattenedGroup>
+            <SubstanceName>CO2 (carbon dioxide)</SubstanceName>
+            <SubstanceName>CO2</SubstanceName>
+
+            <SubstanceFormula>CO2</SubstanceFormula>
+          </SubstanceFlattenedGroup>
+      </Substance>
+      <Property ID="PhysProp-t6v0pjdnth8djqldj35flka1j91076o6"><!-- adsorption node -->
+            <PropertyNameGroup>
+              <PropertyName Type="PreferredName">adsorption</PropertyName>
+              <PropertyName AutoSuggest="true">adsorption; molecular adsorption</PropertyName>
+              <PropertyName>molecular adsorption</PropertyName>
+              <PropertyName>optical adsorption</PropertyName>
+            </PropertyNameGroup>
+            <Property ID="PhysProp-2rrf210bstphldhijpctd7bo1fve82dj"><!-- adsorption node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">adsorption</PropertyName>
+                <PropertyName AutoSuggest="true">adsorption; molecular adsorption</PropertyName>
+                <PropertyName>molecular adsorption</PropertyName>
+                <PropertyName>optical adsorption</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-qbabje298r9qbgr1374k5kgiqls9blbr"><!-- adsorption energy node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">adsorption energy</PropertyName>
+                <PropertyName AutoSuggest="true">adsorption energy/heat/isotherm/free enthalpy</PropertyName>
+                <PropertyName>adsorption heat</PropertyName>
+                <PropertyName>heat of adsorption</PropertyName>
+                <PropertyName>adsorption isotherm</PropertyName>
+                <PropertyName>free adsorption enthalpy</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-tcsmpascqi6jpurmnpk2bbdh839eojjp"><!-- adsorbate coverage node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">adsorbate coverage</PropertyName>
+                <PropertyName AutoSuggest="true">adsorbate coverage/properties/geometry;</PropertyName>
+                <PropertyName>adsorbate properties</PropertyName>
+                <PropertyName>adsorption geometry</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-3i9gs8p3748b3v9rta7poceu4f48cnaj"><!-- coverage dependence node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">coverage dependence</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-1nokl5d63m4rp5e2qgskhbgdlff70pom"><!-- area per molecule node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">area per molecule</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-7ihih4j1b3sa6edulnes7gmhc7182rn0"><!-- electron loss node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">electron loss</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-lgnsooddb2ff3ql4j1dc64abl535br4m"><!-- surface tension node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">surface tension</PropertyName>
+                <PropertyName AutoSuggest="true">surface tension (measurement); interfacial tension; capillarity</PropertyName>
+                <PropertyName>interfacial tension</PropertyName>
+                <PropertyName>surface tension measurement</PropertyName>
+                <PropertyName>capillarity</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-i1et61dbgr75hhp3a7qqnmt04vaio7nt"><!-- electronic structure node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">electronic structure</PropertyName>
+                <PropertyName AutoSuggest="true">electronic structure; electronic configuration</PropertyName>
+                <PropertyName>electronic configuration</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-r6pogn2f6u5kbv8g0ufv0qtrnkrma3kf"><!-- chemical state node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">chemical state</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-99j13kneq77a37dqrji1kq5rp1pvjcnq"><!-- barrier properties node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">barrier properties</PropertyName>
+                <PropertyName>gas barrier</PropertyName>
+                <PropertyName>diffusion barrier</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-nal35bu58hp1nie3u0ngp1a7dk7jdb9o"><!-- collision frequency node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">collision frequency</PropertyName>
+                <PropertyName>collisions frequency</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-lociqpet64ivsva5d8338qh6212aebed"><!-- frequency factor node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">frequency factor</PropertyName>
+                <PropertyName AutoSuggest="true">frequency factor; frequency response</PropertyName>
+                <PropertyName>frequency response</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-ca6aoghcqdfsr3g1ckfr62davpnpfvig"><!-- intensity ratio node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">intensity ratio</PropertyName>
+                <PropertyName>intensity ratios</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-5n2o209a1pmiq8irr1ctmfs3d4jbq6g5"><!-- nearest-neighbor distance node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" LeafNode="true">nearest-neighbor distance</PropertyName>
+                <PropertyName AutoSuggest="true">nearest-neighbor distance; next-nearest neighbor</PropertyName>
+                <PropertyName>nearest-neighbour distance</PropertyName>
+                <PropertyName>next-nearest neighbor</PropertyName>
+                <PropertyName>next nearest neighbor exchange</PropertyName>
+                <PropertyName>next-nearest neighbor exchange</PropertyName>
+                <PropertyName>number of nearest neighbors</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-fi2bpeej4int5jqe6npi5v3ajgr3qq9r"><!-- position vector node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">position vector</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+            <Property ID="PhysProp-j9mfs38kcp04gm8el995cts9ci2a712u"><!-- sticking coefficient node -->
+              <PropertyNameGroup>
+                <PropertyName Type="PreferredName" AutoSuggest="true" LeafNode="true">sticking coefficient</PropertyName>
+              </PropertyNameGroup>
+            </Property>
+          </Property>
+      <Disciplines>
+         <Discipline>Solid-state Physics</Discipline>
+      </Disciplines>
+   </search-metadata>
+</Database>

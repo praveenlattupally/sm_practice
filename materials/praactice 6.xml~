@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+  <DatabaseInfo>
+    <DatabaseID>sm_tpp</DatabaseID>
+    <DatabaseName>Thermophysical Properties</DatabaseName>
+  </DatabaseInfo>
+  <bucket-details>
+    <bucket-name>sm_tpp_vle_c8c110</bucket-name>
+    <bucket-number>226</bucket-number>
+  </bucket-details>    
+  <content>
+    <DatasetTitle Language="En">1,2-Ethanediol-Methanol Vapor-Liquid Equilibrium</DatasetTitle>   
+    <details>
+      <title>Mixture Details</title>
+      <substances>
+        <substance order="1">
+          <title>Component 1</title>
+          <name>1,2-Ethanediol</name>
+          <molecular-formula>C<sub>2</sub>H<sub>6</sub>O<sub>2</sub></molecular-formula>
+          <molecular-mass>62.068</molecular-mass>
+          <cas-numbers><cas-number>107-21-1</cas-number></cas-numbers>
+        </substance>
+        <substance order="2">
+          <title>Component 2</title>
+          <name>Methanol</name>
+          <molecular-formula>CH<sub>4</sub>O</molecular-formula>
+          <molecular-mass>32.042</molecular-mass>
+          <cas-numbers><cas-number>67-56-1</cas-number></cas-numbers>
+        </substance>
+      </substances>
+    </details>
+    <data-tables>
+      <data-table id="0" name="Experimental Data">
+        <header>
+          <title>Vapor-Liquid Equilibrium of the Mixture 1,2-Ethanediol-Methanol</title>
+          <description>Tabulated data of the vapor-liquid equilibrium of the mixture 1,2-ethanediol-methanol as a function of temperature and pressure.</description>
+          <columns>
+            <column order="1" type="parameter">
+              <name>Temperature</name>
+              <symbol><i>T</i></symbol>
+              <unit>K</unit>
+            </column>
+            <column order="2" type="parameter">
+              <name>Pressure</name>
+              <symbol><i>p</i></symbol>
+              <unit>kPa</unit>
+            </column>
+            <column order="3" type="value">
+              <name>Liquid Mole Fraction</name>
+              <symbol><i>x</i></symbol>
+              <unit>mol/mol</unit>
+            </column>
+            <column order="4" type="value">
+              <name>Vapor Mole Fraction</name>
+              <symbol><i>y</i></symbol>
+              <unit>mol/mol</unit>
+            </column>
+            <column order="5" type="text">
+              <name>DDBST ID</name>
+            </column>
+            <column order="6" type="reference">
+              <name>Reference</name>
+              <lookup-table-id>1</lookup-table-id>
+            </column>
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row>
+              <temperature order="1">313.15</temperature>
+              <pressure order="2">11.599</pressure>
+              <liquid-mole-fraction order="3">0.29900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">5026</ddbst-id>
+              <reference order="6" refID="2"/>
+            </row>
+            <row>
+              <temperature order="1">313.15</temperature>
+              <pressure order="2">16.932</pressure>
+              <liquid-mole-fraction order="3">0.44700</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">5026</ddbst-id>
+              <reference order="6" refID="2"/>
+            </row>
+            <row>
+              <temperature order="1">313.15</temperature>
+              <pressure order="2">20.532</pressure>
+              <liquid-mole-fraction order="3">0.55000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">5026</ddbst-id>
+              <reference order="6" refID="2"/>
+            </row>
+            <row>
+              <temperature order="1">313.15</temperature>
+              <pressure order="2">24.265</pressure>
+              <liquid-mole-fraction order="3">0.65300</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">5026</ddbst-id>
+              <reference order="6" refID="2"/>
+            </row>
+            <row>
+              <temperature order="1">313.15</temperature>
+              <pressure order="2">29.198</pressure>
+              <liquid-mole-fraction order="3">0.79300</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">5026</ddbst-id>
+              <reference order="6" refID="2"/>
+            </row>
+            <row>
+              <temperature order="1">313.15</temperature>
+              <pressure order="2">32.931</pressure>
+              <liquid-mole-fraction order="3">0.91000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">5026</ddbst-id>
+              <reference order="6" refID="2"/>
+            </row>
+            <row>
+              <temperature order="1">323.80</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.94420</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">325.46</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.87080</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">326.87</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.81330</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">328.73</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.73620</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">331.40</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.64900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">0.200</pressure>
+              <liquid-mole-fraction order="3">0.00000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">5.430</pressure>
+              <liquid-mole-fraction order="3">0.04200</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">12.880</pressure>
+              <liquid-mole-fraction order="3">0.11400</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">20.820</pressure>
+              <liquid-mole-fraction order="3">0.20100</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">28.100</pressure>
+              <liquid-mole-fraction order="3">0.28400</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">32.220</pressure>
+              <liquid-mole-fraction order="3">0.32900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">36.430</pressure>
+              <liquid-mole-fraction order="3">0.37900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">41.201</pressure>
+              <liquid-mole-fraction order="3">0.43900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">44.480</pressure>
+              <liquid-mole-fraction order="3">0.47800</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">50.151</pressure>
+              <liquid-mole-fraction order="3">0.55400</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">52.680</pressure>
+              <liquid-mole-fraction order="3">0.58800</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">55.430</pressure>
+              <liquid-mole-fraction order="3">0.62100</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">60.330</pressure>
+              <liquid-mole-fraction order="3">0.68800</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">63.120</pressure>
+              <liquid-mole-fraction order="3">0.72300</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">66.020</pressure>
+              <liquid-mole-fraction order="3">0.76400</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">69.040</pressure>
+              <liquid-mole-fraction order="3">0.80100</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">72.119</pressure>
+              <liquid-mole-fraction order="3">0.84400</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">75.480</pressure>
+              <liquid-mole-fraction order="3">0.88600</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">78.050</pressure>
+              <liquid-mole-fraction order="3">0.91900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">333.15</temperature>
+              <pressure order="2">84.590</pressure>
+              <liquid-mole-fraction order="3">1.00000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">14869</ddbst-id>
+              <reference order="6" refID="4"/>
+            </row>
+            <row>
+              <temperature order="1">334.99</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.55020</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">337.25</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">1.00000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">1.00000</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">338.65</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.75400</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.99900</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">339.03</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.94410</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">340.23</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.43670</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">341.04</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.87090</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">341.15</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.59000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.99800</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">342.87</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.81330</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">345.11</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.73620</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">347.94</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.64900</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">349.05</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.30570</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">350.65</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.36000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.99500</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">351.84</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.55030</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">357.49</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.43680</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">362.35</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.25000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.99500</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">366.35</temperature>
+              <pressure order="2">53.33</pressure>
+              <liquid-mole-fraction order="3">0.15170</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11507</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">367.14</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.30580</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">374.15</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.18500</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.98500</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">383.15</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.14200</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.96000</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">385.55</temperature>
+              <pressure order="2">100.97</pressure>
+              <liquid-mole-fraction order="3">0.15200</liquid-mole-fraction>
+              <vapor-mole-fraction order="4"/>
+              <ddbst-id order="5">11506</ddbst-id>
+              <reference order="6" refID="3"/>
+            </row>
+            <row>
+              <temperature order="1">404.65</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.10000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.92200</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">420.35</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.07500</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.84500</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">439.15</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.03200</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.61000</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">444.25</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.02700</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.54000</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">453.45</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.01500</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.36800</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">461.75</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.01000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.15200</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+            <row>
+              <temperature order="1">472.15</temperature>
+              <pressure order="2">101.33</pressure>
+              <liquid-mole-fraction order="3">0.00000</liquid-mole-fraction>
+              <vapor-mole-fraction order="4">0.00000</vapor-mole-fraction>
+              <ddbst-id order="5">1394</ddbst-id>
+              <reference order="6" refID="1"/>
+            </row>
+          </rows>
+        </data>
+      </data-table>  
+      <data-table id="1" name="List of References">
+        <header>
+          <title>List of References</title>
+          <columns>
+            <column order="1" type="text">
+              <name>Short Description</name>
+            </column>
+            <column order="2" type="text">
+              <name>Full Reference</name>
+            </column>
+            <column order="3" type="text">
+              <name>DOI</name>
+            </column>                    
+          </columns>
+        </header>
+        <data>
+          <rows>
+            <row refID="1">
+              <short-description order="1">Baker (1964)</short-description>
+              <full-reference order="2">Baker T.H., Fisher G.T., Roth J.A.: Vapor Liquid Equilibrium and Refractive Indices of the Methanol-Ethylene Glycol System. J.Chem.Eng.Data 9 (1964) 11-12</full-reference>
+              <doi order="3"/>          
+            </row>
+            <row refID="4">
+              <short-description order="1">Bittrich (1992)</short-description>
+              <full-reference order="2">Bittrich H.-J., Eckert R.: Das Dampf/Flüssigkeits-Phasengleichgewicht binärer Mischungen mit Methanol oder Ethanol als einer Komponente. Z.Phys.Chem.(München) 175 (1992) 217-234</full-reference>
+              <doi order="3"/>          
+            </row>
+            <row refID="2">
+              <short-description order="1">Sedletskaya (1969)</short-description>
+              <full-reference order="2">Sedletskaya I.S., Kogan V.B.: Investigation of Liquid-Vapor Equilibrium and Tests of Thermodynamic Consistency of experimental Data for a Ternary System with a Nonvolatile Component. J.Appl.Chem.USSR 42 (1969) 2403-2407</full-reference>
+              <doi order="3"/>          
+            </row>
+            <row refID="3">
+              <short-description order="1">Villa Rivera (1983)</short-description>
+              <full-reference order="2">Villa Rivera J.E.: Application a la Deshydratation par Distillation des Melanges d'Alcools de Synthese. Thesis  (1983)</full-reference>
+              <doi order="3"/>          
+            </row>
+          </rows>
+        </data>
+      </data-table>
+    </data-tables>
+    <supporting-content>
+      <images>
+        <thumbnails>
+          <image order="1">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_001-thumbnail.png</file-name>
+            <file-size>4905</file-size>
+            <description>thumbnail figure 86 x 69 pixel</description>   
+            <caption/>
+          </image>
+          <image order="2">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_002-thumbnail.png</file-name>
+            <file-size>3645</file-size>
+            <description>thumbnail figure 86 x 69 pixel</description>   
+            <caption/>
+          </image>
+          <image order="3">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_003-thumbnail.png</file-name>
+            <file-size>4025</file-size>
+            <description>thumbnail figure 86 x 69 pixel</description>   
+            <caption/>
+          </image>
+          <image order="4">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_004-thumbnail.png</file-name>
+            <file-size>5726</file-size>
+            <description>thumbnail figure 86 x 69 pixel</description>   
+            <caption/>
+          </image>
+          <image order="5">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_005-thumbnail.png</file-name>
+            <file-size>5262</file-size>
+            <description>thumbnail figure 86 x 69 pixel</description>   
+            <caption/>
+          </image>
+        </thumbnails>
+        <preview>
+          <image order="1">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_001-preview.png</file-name>
+            <file-size>20849</file-size>
+            <description>preview figure 202 x 162 pixel</description>   
+            <caption/>
+          </image>
+          <image order="2">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_002-preview.png</file-name>
+            <file-size>15634</file-size>
+            <description>preview figure 202 x 162 pixel</description>   
+            <caption/>
+          </image>
+          <image order="3">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_003-preview.png</file-name>
+            <file-size>17258</file-size>
+            <description>preview figure 202 x 162 pixel</description>   
+            <caption/>
+          </image>
+          <image order="4">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_004-preview.png</file-name>
+            <file-size>25603</file-size>
+            <description>preview figure 202 x 162 pixel</description>   
+            <caption/>
+          </image>
+          <image order="5">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_005-preview.png</file-name>
+            <file-size>25563</file-size>
+            <description>preview figure 202 x 162 pixel</description>   
+            <caption/>
+          </image>
+        </preview>
+        <large>
+          <image order="1">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_001.png</file-name>
+            <file-size>15273</file-size>
+            <description>(standard) large figure 500 x 400 pixel</description>   
+            <caption/>
+          </image>
+          <image order="2">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_002.png</file-name>
+            <file-size>13274</file-size>
+            <description>(standard) large figure 500 x 400 pixel</description>   
+            <caption/>
+          </image>
+          <image order="3">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_003.png</file-name>
+            <file-size>12857</file-size>
+            <description>(standard) large figure 500 x 400 pixel</description>   
+            <caption/>
+          </image>
+          <image order="4">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_004.png</file-name>
+            <file-size>20142</file-size>
+            <description>(standard) large figure 500 x 400 pixel</description>   
+            <caption/>
+          </image>
+          <image order="5">
+            <file-path/>
+            <file-name>sm_tpp_vle_c8c110_005.png</file-name>
+            <file-size>19414</file-size>
+            <description>(standard) large figure 500 x 400 pixel</description>   
+            <caption/>
+          </image>
+        </large>
+      </images>
+      <csv-files>
+        <csv>
+          <file-path/>
+          <file-name/>
+          <file-size/>
+          <description/>
+        </csv>
+      </csv-files>
+    </supporting-content>
+    <search-metadata>
+      <substance-property-block>
+        <substance ID="HJLQSRHHDUUUQXYP">1,2-Ethanediol</substance>
+        <substance ID="WGHYYGGINMMLBXRJ">Methanol</substance>
+        <property ID="PhysProp-c4tebl25mgbeastraq0ejcmds1c00d5p">Vapor-Liquid Equilibrium</property>
+      </substance-property-block>
+      <substance-property-block>
+        <substance ID="HJLQSRHHDUUUQXYP">1,2-Ethanediol</substance>
+        <substance ID="WGHYYGGINMMLBXRJ">Methanol</substance>
+        <property ID="PhysProp-dtpsd8e9k2ni2u5vs3i3acgle7hcojfm">Vapor-Liquid Equilibrium</property>
+      </substance-property-block>
+    </search-metadata>
+    <search-snippet>
+      <snippet order="1">Temperature Range (313.15 ... 472.15) K</snippet>
+      <snippet order="2">Pressure Range (0.200 ... 101.33) kPa</snippet>
+    </search-snippet>
+    <about-content>
+      <DatabaseTradeName>Dortmund Data Bank (DDB) – Thermophysical Properties</DatabaseTradeName>
+      <DatasetID>vle_c8c110</DatasetID>  
+      <DatasetCopyright>
+        <CopyrightHolderName>Springer-Verlag Berlin Heidelberg &amp; DDBST GmbH</CopyrightHolderName>
+        <CopyrightYear>2010-2014</CopyrightYear>
+      </DatasetCopyright>
+      <Editor>
+        <Name DisplayOrder="Western">Jürgen Gmehling</Name>
+        <Email>gmehling@tech.chem.uni-oldenburg.de</Email>
+      </Editor>
+      <credits>
+        <logo>
+          <image order="1">
+            <file-path/>
+            <file-name>DDBST_Logo_55x52.png</file-name>
+            <file-size>2216</file-size>
+            <description>Logo of the Dortmund Data Bank Software and Separation Technology GmbH as a 55 by 52 pixel PNG file with transparent background</description>   
+            <caption>DDBST Logo</caption>
+          </image>
+        </logo>
+        <comments>
+          <comment order="1">Dortmund Data Bank Edition 2014. Integrated in SpringerMaterials 2014. Version 2014.03.</comment>
+          <comment order="2">Dortmund Data Bank by DDBST – Dortmund Data Bank Software and Separation Technology GmbH</comment>
+        </comments>
+      </credits>
+    </about-content>
+  </content>
+</Database>

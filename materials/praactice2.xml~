@@ -1,0 +1,427 @@
+<Database xmlns:ml="ml">
+  <DatabaseInfo>
+      <DatabaseID>sm_tpp</DatabaseID>
+      <DatabaseName>Thermophysical Properties</DatabaseName>
+  </DatabaseInfo>
+  <bucket-details>
+      <bucket-name>sm_tpp_vle_c31c250</bucket-name>
+      <bucket-number>915</bucket-number>
+  </bucket-details>    
+  <content>
+      <DatasetTitle Language="En">Benzene-Cyclohexanone Vapor-Liquid Equilibrium</DatasetTitle>   
+      <details>
+         <title>Mixture Details</title>
+         <substances>
+            <substance order="1">
+               <title>Component 1</title>
+               <name>Benzene</name>
+               <molecular-formula>C<sub>6</sub>H<sub>6</sub>
+               </molecular-formula>
+               <molecular-mass>78.114</molecular-mass>
+               <cas-numbers>
+                  <cas-number>71-43-2</cas-number>
+               </cas-numbers>
+            </substance>
+            <substance order="2">
+               <title>Component 2</title>
+               <name>Cyclohexanone</name>
+               <molecular-formula>C<sub>6</sub>H<sub>10</sub>O</molecular-formula>
+               <molecular-mass>98.145</molecular-mass>
+               <cas-numbers>
+                  <cas-number>108-94-1</cas-number>
+               </cas-numbers>
+            </substance>
+         </substances>
+      </details>
+      <data-tables>
+         <data-table id="0" name="Experimental Data">
+            <header>
+               <title>Vapor-Liquid Equilibrium of the Mixture Benzene-Cyclohexanone</title>
+               <description>Tabulated data of the vapor-liquid equilibrium of the mixture benzene-cyclohexanone as a function of temperature and pressure.</description>
+               <columns>
+                  <column order="1" type="parameter">
+                     <name>Temperature</name>
+                     <symbol>
+                        <i>T</i>
+                     </symbol>
+                     <unit>K</unit>
+                  </column>
+                  <column order="2" type="parameter">
+                     <name>Pressure</name>
+                     <symbol>
+                        <i>p</i>
+                     </symbol>
+                     <unit>kPa</unit>
+                  </column>
+                  <column order="3" type="value">
+                     <name>Liquid Mole Fraction</name>
+                     <symbol>
+                        <i>x</i>
+                     </symbol>
+                     <unit>mol/mol</unit>
+                  </column>
+                  <column order="4" type="value">
+                     <name>Vapor Mole Fraction</name>
+                     <symbol>
+                        <i>y</i>
+                     </symbol>
+                     <unit>mol/mol</unit>
+                  </column>
+                  <column order="5" type="text">
+                     <name>DDBST ID</name>
+                  </column>
+                  <column order="6" type="reference">
+                     <name>Reference</name>
+                     <lookup-table-id>1</lookup-table-id>
+                  </column>
+               </columns>
+            </header>
+            <data>
+               <rows>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.00909</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.15800</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.02870</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.36500</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.06150</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.56000</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.11010</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.70300</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.17990</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.80000</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.25820</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.86800</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.37190</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.92000</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.46210</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.94400</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.55100</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.96100</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.67130</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.97900</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.81090</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.99000</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.89810</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.99480</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.97310</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.99880</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+                  <row>
+                     <temperature order="1">298.15</temperature>
+                     <pressure order="2">101.3</pressure>
+                     <liquid-mole-fraction order="3">0.98670</liquid-mole-fraction>
+                     <vapor-mole-fraction order="4">0.99940</vapor-mole-fraction>
+                     <ddbst-id order="5">12869</ddbst-id>
+                     <reference order="6" refID="1"/>
+                  </row>
+               </rows>
+            </data>
+         </data-table>  
+         <data-table id="1" name="List of References">
+            <header>
+               <title>List of References</title>
+               <columns>
+                  <column order="1" type="text">
+                     <name>Short Description</name>
+                  </column>
+                  <column order="2" type="text">
+                     <name>Full Reference</name>
+                  </column>
+                  <column order="3" type="text">
+                     <name>DOI</name>
+                  </column>                    
+               </columns>
+            </header>
+            <data>
+               <rows>
+                  <row refID="1">
+                     <short-description order="1">Matteoli (1988)</short-description>
+                     <full-reference order="2">Matteoli E., Lepori L.: 2. Excess Gibbs Free Energies of a Hydrocarbon or Tetrachloromethane + a Cyclic Ketone at 298.15 K. J.Chem.Eng.Data 33 (1988) 247-250</full-reference>
+                     <doi order="3"/>          
+                  </row>
+               </rows>
+            </data>
+         </data-table>
+      </data-tables>
+      <supporting-content>
+         <images>
+            <thumbnails>
+               <image order="1">
+                  <file-path/>
+                  <file-name>sm_tpp_vle_c31c250_001-thumbnail.png</file-name>
+                  <file-size>3815</file-size>
+                  <description>thumbnail figure 86 x 69 pixel</description>   
+                  <caption/>
+               </image>
+            </thumbnails>
+            <preview>
+               <image order="1">
+                  <file-path/>
+                  <file-name>sm_tpp_vle_c31c250_001-preview.png</file-name>
+                  <file-size>15083</file-size>
+                  <description>preview figure 202 x 162 pixel</description>   
+                  <caption/>
+               </image>
+            </preview>
+            <large>
+               <image order="1">
+                  <file-path/>
+                  <file-name>sm_tpp_vle_c31c250_001.png</file-name>
+                  <file-size>13501</file-size>
+                  <description>(standard) large figure 500 x 400 pixel</description>   
+                  <caption/>
+               </image>
+            </large>
+         </images>
+         <csv-files>
+            <csv>
+               <file-path/>
+               <file-name/>
+               <file-size/>
+               <description/>
+            </csv>
+         </csv-files>
+      </supporting-content>
+      <search-metadata>
+         <substance-property-block>
+            <substance ID="CDQPHGNPEFYYOCWT">Benzene</substance>
+            <substance ID="YOTYDCNFQOOPAVZC">Cyclohexanone</substance>
+            <property ID="PhysProp-c4tebl25mgbeastraq0ejcmds1c00d5p">Vapor-Liquid Equilibrium</property>
+         </substance-property-block>
+         <substance-property-block>
+            <substance ID="CDQPHGNPEFYYOCWT">Benzene</substance>
+            <substance ID="YOTYDCNFQOOPAVZC">Cyclohexanone</substance>
+            <property ID="PhysProp-dtpsd8e9k2ni2u5vs3i3acgle7hcojfm">Vapor-Liquid Equilibrium</property>
+         </substance-property-block>
+         <Substance ID="CDQPHGNPEFYYOCWT" ShowSubstanceProfile="true">
+            <SubstanceNameGroup>
+               <SubstanceName AutoSuggestName="true">1,3,5-cyclohexatriene</SubstanceName>
+               <SubstanceName AutoSuggestName="true">benzolene</SubstanceName>
+               <SubstanceName AutoSuggestName="true">C<Subscript>6</Subscript>H<Subscript>6</Subscript> (benzene)</SubstanceName>
+               <SubstanceName AutoSuggestName="true">phenyl hydride</SubstanceName>
+               <SubstanceName AutoSuggestName="true">pyrobenzole</SubstanceName>
+               <SubstanceName Language="DE">Benzol</SubstanceName>
+               <SubstanceName Language="DE">Pyrobenzol</SubstanceName>
+               <SubstanceName Language="FR">Bicarburet of hydrogen</SubstanceName>
+               <SubstanceName Type="IUPACName">benzene</SubstanceName>
+               <SubstanceName Type="PreferredName">benzene</SubstanceName>
+               <SubstanceName Type="SystematicName">benzene</SubstanceName>
+               <SubstanceName>Benzen</SubstanceName>
+               <SubstanceName>Benzene anhydrous</SubstanceName>
+               <SubstanceName>Benzene I</SubstanceName>
+               <SubstanceName>Benzene II</SubstanceName>
+               <SubstanceName>Benzin</SubstanceName>
+               <SubstanceName>Benzine</SubstanceName>
+               <SubstanceName>Benzole</SubstanceName>
+               <SubstanceName>Carbon oil</SubstanceName>
+               <SubstanceName>Coal naphtha</SubstanceName>
+               <SubstanceName>Cyclohexatrien</SubstanceName>
+               <SubstanceName>Cyclohexatriene</SubstanceName>
+               <SubstanceName>Mineral naphtha</SubstanceName>
+               <SubstanceName>Motor benzol</SubstanceName>
+               <SubstanceName>NCI-C55276</SubstanceName>
+               <SubstanceName>Nitration benzene</SubstanceName>
+               <SubstanceName>Phene</SubstanceName>
+               <SubstanceName>[6]Annulene</SubstanceName>
+            </SubstanceNameGroup>
+            <SubstanceIdentifierGroup>
+               <SubstanceIdentifier Type="CASNo">174973-66-1</SubstanceIdentifier>
+               <SubstanceIdentifier Type="CASNo">54682-86-9</SubstanceIdentifier>
+               <SubstanceIdentifier Type="CASNo">71-43-2</SubstanceIdentifier>
+               <SubstanceIdentifier Type="InChi">InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H</SubstanceIdentifier>
+               <SubstanceIdentifier Type="InChiKey">UHOVQNZJYSORNB-UHFFFAOYSA-N</SubstanceIdentifier>
+               <SubstanceIdentifier Type="PubChemCID">241</SubstanceIdentifier>
+               <SubstanceIdentifier Type="SpresiID">0002830-100</SubstanceIdentifier>
+            </SubstanceIdentifierGroup>
+            <SubstanceFormulaGroup>
+               <ElementSystem>C-H</ElementSystem>
+               <SubstanceFormula Type="Hill">C<Subscript>6</Subscript>H<Subscript>6</Subscript>
+               </SubstanceFormula>
+               <StructureFile Type="MDLMolfile2D" Encoding="base64">CiAgU2NpRGV4ICAwNjExMTAwMDAwMkQgMQoKICA2ICA2ICAwICAwICAwICAwICAwICAwICAwICAwICAxIFYyMDAwCiAgICAwLjUwMCAgICAgMC4wMDAgICAgIDAuMDAwICBDICAgMCAgMCAgMCAgMCAgMCAgMAogICAgMC4wMDAgICAgIDAuODcwICAgICAwLjAwMCAgQyAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuNTAwICAgICAxLjc0MCAgICAgMC4wMDAgIEMgICAwICAwICAwICAwICAwICAwCiAgICAxLjUwMCAgICAgMS43NDAgICAgIDAuMDAwICBDICAgMCAgMCAgMCAgMCAgMCAgMAogICAgMi4wMDAgICAgIDAuODcwICAgICAwLjAwMCAgQyAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDEuNTAwICAgICAwLjAwMCAgICAgMC4wMDAgIEMgICAwICAwICAwICAwICAwICAwCiAgMSAgMiAgMSAgMCAgMCAgMCAgMAogIDIgIDMgIDIgIDAgIDAgIDAgIDAKICAzICA0ICAxICAwICAwICAwICAwCiAgNCAgNSAgMiAgMCAgMCAgMCAgMAogIDUgIDYgIDEgIDAgIDAgIDAgIDAKICAxICA2ICAyICAwICAwICAwICAwCk0gIEVORAo=</StructureFile>
+            </SubstanceFormulaGroup>
+            <ClassificationGroup>
+               <ClassificationRef ClassificationID="SubstTaxPhys-3300"/>
+               <ClassificationRef ClassificationID="SubstTaxChem-2220"/>
+            </ClassificationGroup>
+            <CatalogGroup>
+      </CatalogGroup>
+            <SubstanceFlattenedGroup>
+               <SubstanceName>C6H6 (benzene)</SubstanceName>
+
+               <SubstanceFormula>C6H6</SubstanceFormula>
+            </SubstanceFlattenedGroup>
+         </Substance>
+         <Substance ID="YOTYDCNFQOOPAVZC" ShowSubstanceProfile="true">
+            <SubstanceNameGroup>
+               <SubstanceName>Anon</SubstanceName>
+               <SubstanceName>Anone</SubstanceName>
+               <SubstanceName>C<Subscript>6</Subscript>H<Subscript>10</Subscript>O (cyclohexanone)</SubstanceName>
+               <SubstanceName>Cyclohexanon</SubstanceName>
+               <SubstanceName>Hexanon</SubstanceName>
+               <SubstanceName>Hytrol O</SubstanceName>
+               <SubstanceName>Ketohexamethylene</SubstanceName>
+               <SubstanceName>NCI-C55005</SubstanceName>
+               <SubstanceName>Nadone</SubstanceName>
+               <SubstanceName>Pimelic ketone</SubstanceName>
+               <SubstanceName>Pimelin ketone</SubstanceName>
+               <SubstanceName>Sextone</SubstanceName>
+               <SubstanceName AutoSuggestName="true" Type="PreferredName">cyclohexanone</SubstanceName>
+            </SubstanceNameGroup>
+            <SubstanceIdentifierGroup>
+               <SubstanceIdentifier Type="CASNo">108-94-1</SubstanceIdentifier>
+               <SubstanceIdentifier Type="InChi">InChI=1S/C6H10O/c7-6-4-2-1-3-5-6/h1-5H2</SubstanceIdentifier>
+               <SubstanceIdentifier Type="InChiKey">JHIVVAPYMSGYDF-UHFFFAOYSA-N</SubstanceIdentifier>
+               <SubstanceIdentifier Type="PubChemCID">7967</SubstanceIdentifier>
+               <SubstanceIdentifier Type="SpresiID">0001495-600</SubstanceIdentifier>
+            </SubstanceIdentifierGroup>
+            <SubstanceFormulaGroup>
+               <ElementSystem>C-H-O</ElementSystem>
+               <SubstanceFormula Type="Hill">C<Subscript>6</Subscript>H<Subscript>10</Subscript>O</SubstanceFormula>
+               <StructureFile Type="MDLMolfile2D" Encoding="base64">CiAgU2NpRGV4ICAwNjExMTAwMDAwMkQgMQoKICA3ICA3ICAwICAwICAwICAwICAwICAwICAwICAwICAxIFYyMDAwCiAgICAwLjAwMCAgICAgMC44NzAgICAgIDAuMDAwICBPICAgMCAgMCAgMCAgMCAgMCAgMAogICAgMS4wMDAgICAgIDAuODcwICAgICAwLjAwMCAgQyAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDEuNTAwICAgICAxLjc0MCAgICAgMC4wMDAgIEMgICAwICAwICAwICAwICAwICAwCiAgICAyLjUwMCAgICAgMS43NDAgICAgIDAuMDAwICBDICAgMCAgMCAgMCAgMCAgMCAgMAogICAgMy4wMDAgICAgIDAuODcwICAgICAwLjAwMCAgQyAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDIuNTAwICAgICAwLjAwMCAgICAgMC4wMDAgIEMgICAwICAwICAwICAwICAwICAwCiAgICAxLjUwMCAgICAgMC4wMDAgICAgIDAuMDAwICBDICAgMCAgMCAgMCAgMCAgMCAgMAogIDEgIDIgIDIgIDAgIDAgIDAgIDAKICAyICAzICAxICAwICAwICAwICAwCiAgMyAgNCAgMSAgMCAgMCAgMCAgMAogIDQgIDUgIDEgIDAgIDAgIDAgIDAKICA1ICA2ICAxICAwICAwICAwICAwCiAgNiAgNyAgMSAgMCAgMCAgMCAgMAogIDIgIDcgIDEgIDAgIDAgIDAgIDAKTSAgRU5ECg==</StructureFile>
+               <StructureFile Type="MDLMolfile3D" Encoding="base64">Nzk2NwogIENESyAgICAxMS83LzIwMTIsMjE6NDcKCiAxNyAxNyAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMDk5OSBWMjAwMAogICAgMi4yNDUyICAgIDAuMDAwMCAgICAwLjI5NzEgTyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTEuODM1MSAgICAwLjAwMDIgICAtMC4xMTM2IEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC0xLjA2MzcgICAtMS4yNTgwICAgIDAuMjc5MSBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtMS4wNjMzICAgIDEuMjU4MCAgICAwLjI3OTUgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuMzI1MyAgIC0xLjI4NjMgICAtMC4zNDM3IEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICAwLjMyNTMgICAgMS4yODYxICAgLTAuMzQ0MSBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgMS4wNjYzICAgIDAuMDAwMCAgIC0wLjA1NDIgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTIuMDE5MiAgICAwLjAwMDMgICAtMS4xOTQ4IEggICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC0yLjgxMzMgICAgMC4wMDAzICAgIDAuMzgwNCBIICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtMS42MjQyICAgLTIuMTQ3NCAgIC0wLjAyOTggSCAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTAuOTc0NiAgIC0xLjI5NzcgICAgMS4zNzIwIEggICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC0wLjk3MzcgICAgMS4yOTcyICAgIDEuMzcyNCBIICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtMS42MjM3ICAgIDIuMTQ3NiAgIC0wLjAyODggSCAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuMjYzNiAgIC0xLjQwNTAgICAtMS40MzA5IEggICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICAwLjg5NzAgICAtMi4xMjg2ICAgIDAuMDU5OCBIICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgMC44OTcxICAgIDIuMTI4NSAgICAwLjA1ODggSCAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuMjYzMiAgICAxLjQwNDMgICAtMS40MzEzIEggICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgMSAgNyAgMiAgMCAgMCAgMCAgMCAKICAyICAzICAxICAwICAwICAwICAwIAogIDIgIDQgIDEgIDAgIDAgIDAgIDAgCiAgMiAgOCAgMSAgMCAgMCAgMCAgMCAKICAyICA5ICAxICAwICAwICAwICAwIAogIDMgIDUgIDEgIDAgIDAgIDAgIDAgCiAgMyAxMCAgMSAgMCAgMCAgMCAgMCAKICAzIDExICAxICAwICAwICAwICAwIAogIDQgIDYgIDEgIDAgIDAgIDAgIDAgCiAgNCAxMiAgMSAgMCAgMCAgMCAgMCAKICA0IDEzICAxICAwICAwICAwICAwIAogIDUgIDcgIDEgIDAgIDAgIDAgIDAgCiAgNSAxNCAgMSAgMCAgMCAgMCAgMCAKICA1IDE1ICAxICAwICAwICAwICAwIAogIDYgIDcgIDEgIDAgIDAgIDAgIDAgCiAgNiAxNiAgMSAgMCAgMCAgMCAgMCAKICA2IDE3ICAxICAwICAwICAwICAwIApNICBFTkQK</StructureFile>
+            </SubstanceFormulaGroup>
+            <ClassificationGroup/>
+            <CatalogGroup/>
+            <SubstanceFlattenedGroup>
+               <SubstanceName>C6H10O (cyclohexanone)</SubstanceName>
+
+               <SubstanceFormula>C6H10O</SubstanceFormula>
+            </SubstanceFlattenedGroup>
+         </Substance>
+         <Property ID="PhysProp-c4tebl25mgbeastraq0ejcmds1c00d5p"><!-- vapor-liquid equilibrium node -->
+            <PropertyNameGroup>
+              <PropertyName Type="PreferredName" LeafNode="true">vapor-liquid equilibrium</PropertyName>
+              <PropertyName AutoSuggest="true">vapor-liquid equilibrium; mass fraction; volume fraction</PropertyName>
+              <PropertyName>vapor liquid equilibrium</PropertyName>
+              <PropertyName>vapour-liquid equilibrium</PropertyName>
+              <PropertyName>vapour liquid equilibrium</PropertyName>
+              <PropertyName>VLE</PropertyName>
+              <PropertyName>mass fraction</PropertyName>
+              <PropertyName>volume fraction</PropertyName>
+            </PropertyNameGroup>
+          </Property>
+         <Property ID="PhysProp-dtpsd8e9k2ni2u5vs3i3acgle7hcojfm"><!-- vapor-liquid equilibrium node -->
+            <PropertyNameGroup>
+              <PropertyName Type="PreferredName" LeafNode="true">vapor-liquid equilibrium</PropertyName>
+              <PropertyName AutoSuggest="true">vapor-liquid equilibrium; mass fraction; volume fraction</PropertyName>
+              <PropertyName>vapor liquid equilibrium</PropertyName>
+              <PropertyName>vapour-liquid equilibrium</PropertyName>
+              <PropertyName>vapour liquid equilibrium</PropertyName>
+              <PropertyName>VLE</PropertyName>
+              <PropertyName>mass fraction</PropertyName>
+              <PropertyName>volume fraction</PropertyName>
+            </PropertyNameGroup>
+          </Property>
+         <Disciplines>
+            <Discipline>Thermodynamics</Discipline>
+         </Disciplines>
+      </search-metadata>
+      <search-snippet>
+         <snippet order="1">Temperature 298.15 K</snippet>
+         <snippet order="2">Pressure 101.3 kPa</snippet>
+      </search-snippet>
+      <about-content>
+         <DatabaseTradeName>Dortmund Data Bank (DDB) – Thermophysical Properties</DatabaseTradeName>
+         <DatasetID>vle_c31c250</DatasetID>  
+         <DatasetCopyright>
+            <CopyrightHolderName>Springer-Verlag Berlin Heidelberg &amp; DDBST GmbH</CopyrightHolderName>
+            <CopyrightYear>2010-2014</CopyrightYear>
+         </DatasetCopyright>
+         <Editor>
+            <Name DisplayOrder="Western">Jürgen Gmehling</Name>
+            <Email>gmehling@tech.chem.uni-oldenburg.de</Email>
+         </Editor>
+         <credits>
+            <logo>
+               <image order="1">
+                  <file-path/>
+                  <file-name>DDBST_Logo_55x52.png</file-name>
+                  <file-size>2216</file-size>
+                  <description>Logo of the Dortmund Data Bank Software and Separation Technology GmbH as a 55 by 52 pixel PNG file with transparent background</description>   
+                  <caption>DDBST Logo</caption>
+               </image>
+            </logo>
+            <comments>
+               <comment order="1">Dortmund Data Bank Edition 2014. Integrated in SpringerMaterials 2014. Version 2014.03.</comment>
+               <comment order="2">Dortmund Data Bank by DDBST – Dortmund Data Bank Software and Separation Technology GmbH</comment>
+            </comments>
+         </credits>
+      </about-content>
+  </content>
+</Database>

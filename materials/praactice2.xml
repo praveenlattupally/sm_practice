@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+  <DatabaseInfo>
+    <DatabaseID>ads</DatabaseID>
+  </DatabaseInfo>
+  <DatasetInfo TocLevels="0" NumberingStyle="Unnumbered" ContainsESM="No" DatasetType="Datasheet">
+    <DatasetTitle Language="En">Adsorption isotherm for ethane on 13X (framework type FAU zeolite)
+    </DatasetTitle>
+    <DatasetCopyright>
+      <CopyrightHolderName>Springer-Verlag Berlin Heidelberg</CopyrightHolderName>
+      <CopyrightYear>2013</CopyrightYear>
+    </DatasetCopyright>
+    <Editor>
+      <Name DisplayOrder="Western">Orhan Talu</Name>
+      <Email>o.talu@csuohio.edu</Email>
+    </Editor>
+    <adsorbate>
+      <name>ethane</name>
+      <cas-number>74-84-0</cas-number>
+      <molecular-formula>C<sub>2</sub>H<sub>6</sub></molecular-formula>
+      <molecular-weight>30.07</molecular-weight>
+      <normal-boiling-point>184.6 K</normal-boiling-point>
+      <critical-temperature>305.3 K</critical-temperature>
+      <critical-pressure>4900 kPa</critical-pressure>
+      <critical-volume>147 cm<sup>3</sup>/mol</critical-volume>
+    </adsorbate>
+    <adsorbent>
+      <name>13X</name>
+      <solid-class>zeolite</solid-class>
+      <solid-sub-class>FAU</solid-sub-class>
+      <descriptions>
+        <description>
+          <title> Volume</title>
+          <value> 0.26 cm<sup>3</sup>/g</value>
+        </description>
+        <description>
+          <title> Area</title>
+          <value> 383 m<sup>2</sup>/g</value>
+        </description>
+        <description>
+          <title>Trade Name</title>
+          <value> Zeosorb</value>
+        </description>
+      </descriptions>
+      <supplier/>
+      <form/>
+    </adsorbent>
+  </DatasetInfo>
+  <Datasets>
+    <Dataset>
+        <bucket-details>
+            <bucket-name>ads000439</bucket-name>
+            <bucket-number>026</bucket-number>
+        </bucket-details>
+        <temperature>
+        <value>298</value>
+        <unit>K</unit>
+      </temperature>
+      <DatasetID>ads000439</DatasetID>
+      <subtitle><Emphasis Type="Italic">T</Emphasis> = 298 K</subtitle>
+      <experimental-setup>
+        <data-type>table</data-type>
+        <lab>Harting</lab>
+        <method>gravimetric</method>
+        <apparatus/>
+        <quality/>
+        <remark/>
+      </experimental-setup>
+      <experiment-data>
+        <data>
+          <pressure>
+            <value>140</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.2037</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>222</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.3584</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>337</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.4728</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>515</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.5698</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>1036</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.6889</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>1523</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.7315</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>2021</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.7457</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>2524</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.7423</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>3037</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.7231</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>3508</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.6927</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+        <data>
+          <pressure>
+            <value>3948</value>
+            <unit>kPa</unit>
+          </pressure>
+          <sorption type="Adsorption">
+            <value>2.627</value>
+            <unit>mol/kg</unit>
+          </sorption>
+        </data>
+      </experiment-data>
+    </Dataset>
+  </Datasets>
+  <search-metadata>
+      <substance-property-block>
+         <substance ID="YYIHQOZPJDCROGIX">ethane</substance>
+         <property ID="PhysProp-t6v0pjdnth8djqldj35flka1j91076o6">Adsorption</property>
+      </substance-property-block>
+      <MolecularFormula Type="Hill">C2H6</MolecularFormula>
+  </search-metadata>
+</Database>
